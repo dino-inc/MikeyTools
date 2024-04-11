@@ -1,0 +1,55 @@
+:root {
+    --main-color: #121212;
+    --secondary-color: red;
+    --tertiary-color: #fb8c00;
+    --fourth-color: #ffffff;
+    --button-color: #1e1e1e;
+    --background-color: linear-gradient(90deg,#585858 0,#2c2c2c 30%,#2d2d2d 70%,#585858);
+}
+
+.headerBanner h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px 2px #000;
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+    top: 0px;
+    margin: 0;
+    height: 1.5em;
+    font-family: 'Russo One', 'Helvetica', 'sans-serif';
+    border-bottom: 5px;
+}
+
+body
+{
+    font-family: 'Russo One', 'Helvetica', 'sans-serif';
+    background: var(--background-color);
+    margin: 0;
+}
+
+.toolButton {
+    border-radius: 4px;
+    border-width: thin;
+    color: var(--fourth-color);
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 14px;
+    background-color: var(--button-color);
+    width: 20%;
+    height: 4em;
+    margin: 1%;
+}
+
+.toolButton:hover {
+    cursor: pointer;
+    background-color: #585858;
+}
+
+.toolButton h3 {
+    font-family: 'Russo One', 'Helvetica', 'sans-serif';
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #000;
+    color: var(--secondary-color);
+    margin: 5px;
+    border-bottom:solid 2px var(--secondary-color);
+}
+
+
