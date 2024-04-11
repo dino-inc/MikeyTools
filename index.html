@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsPanel</title>
+    <!-- loading jsPanel css -->
+    <link href="jspanel/dist/jspanel.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Your HTML goes here -->
+
+    <!-- loading jsPanel javascript -->
+    <script src="jspanel/dist/jspanel.js"></script>
+    <!-- optionally load jsPanel extensions -->
+    <script src="jspanel/dist/extensions/contextmenu/jspanel.contextmenu.js"></script>
+    <script src="jspanel/dist/extensions/hint/jspanel.hint.js"></script>
+    <script src="jspanel/dist/extensions/modal/jspanel.modal.js"></script>
+    <script src="jspanel/dist/extensions/tooltip/jspanel.tooltip.js"></script>
+    <script src="jspanel/dist/extensions/dock/jspanel.dock.js"></script>
+
+    <script>
+    jsPanel.create({
+        theme: 'dark',
+        headerTitle: 'Socialized Healthcare',
+        headerToolbar: '<span class="text-sm">Socialism is when your health gets averaged.</span>',
+        panelSize: {
+            width: () => { return Math.min(800, window.innerWidth*0.9);},
+            height: () => { return Math.min(500, window.innerHeight*0.6);}
+        },
+        animateIn: 'jsPanelFadeIn',
+        contentAjax: {
+            url: 'toolpages/healthsum.html',
+            done: (xhr, panel) => {
+                panel.content.innerHTML = xhr.responseText;
+                Prism.highlightAll();
+            }
+        },
+        onwindowresize: true,
+    });
+    </script>
+</body>
+</html>
