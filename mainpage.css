@@ -52,4 +52,16 @@ body
     border-bottom:solid 2px var(--secondary-color);
 }
 
+/*Why are there so many inline styles that need to be overwritten? 
+Probably something in the library I don't know how to configure.*/
 
+.jsPanel-title {
+    color: var(--secondary-color) !important;
+    text-shadow: 2px 2px 2px #000;
+
+}
+
+.jsPanel-hdr {
+    background-color: var(--main-color) !important;
+    border-bottom: solid 2px var(--secondary-color) !important;
+}
