@@ -10,14 +10,18 @@
 
 </head>
 <body>
-    <script type="text/javascript" src="windowManager.js"></script>
-    Mikey Tools
-    <input class = "healthSum" type="button" value="Socialized Healthcare"></input>
-    <script>
-        window.addEventListener('DOMContentLoaded', (event) => {
-            createListeners();
-        });
-    </script>
 
+    Mikey Tools
+    <input class = "healthSum" type="button" value="Socialized Healthcare">
+
+    <!-- jsPanel -->
+    <script src="jspanel/dist/jspanel.min.js"></script>
+    <script src="jspanel/dist/extensions/contextmenu/jspanel.contextmenu.min.js"></script>
+    <script src="jspanel/dist/extensions/hint/jspanel.hint.min.js"></script>
+    <script src="jspanel/dist/extensions/modal/jspanel.modal.min.js"></script>
+    <script src="jspanel/dist/extensions/tooltip/jspanel.tooltip.min.js"></script>
+    <script src="jspanel/dist/extensions/dock/jspanel.dock.min.js"></script>
+    <!-- My script -->
+    <script type="module" src="windowManager.js"></script>
 </body>
 </html>

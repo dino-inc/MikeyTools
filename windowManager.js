@@ -1,12 +1,7 @@
-import * as jsPanel from "/jspanel/dist/jspanel.js"
-
-function createListeners(){
-    console.log("executing")
-    document.getElementByClass("healthSum").addEventListener ("click", createHealthSumWindow);
-}
+// Add listeners to the buttons
+document.getElementsByClassName("healthSum")[0].addEventListener ("click", createHealthSumWindow);
 
 function createHealthSumWindow() {
-    console.log("Opening healthsum window")
     jsPanel.create({
         theme: 'dark',
         headerTitle: 'Socialized Healthcare',
@@ -20,7 +15,6 @@ function createHealthSumWindow() {
             url: './toolpages/healthsum.html',
             done: (xhr, panel) => {
                 panel.content.innerHTML = xhr.responseText;
-                Prism.highlightAll();
             }
         },
         onwindowresize: true,
