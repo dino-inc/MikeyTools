@@ -33,7 +33,9 @@ function equalize(){
 function clear (){
     let inputs = document.getElementsByClassName("creature")
     for (let i = 0; i < inputs.length; i++) {
-        inputs[i].value = "";
+        inputs[i].children[0].value = "";
+        inputs[i].children[1].value = "";
+        inputs[i].children[2].value = "";
     }
 
 }
