@@ -1,0 +1,62 @@
+:root {
+    --main-color: #121212;
+    --secondary-color: red;
+    --tertiary-color: #fb8c00;
+    --fourth-color: #ffffff;
+    --button-color: #1e1e1e;
+    --background-color: linear-gradient(90deg,#585858 0,#2c2c2c 30%,#2d2d2d 70%,#585858);
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+/* Button styling */
+.calcButton {
+    font-family: 'Russo One', 'Helvetica', 'sans-serif';
+    color: var(--secondary-color);
+    height: 20px;
+    width: 90px;
+    background-color: #515151;
+    margin: 5px;
+    text-align: center;
+    border-radius: 4px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.calcButton:hover {
+    background-color: #8f8f8f;
+}
+
+.calcButtonPanel {
+    position: absolute;
+    right: 10px;
+}
+
+/* Output styling */
+.healthSumOutput{
+    font-family: 'Russo One', 'Helvetica', 'sans-serif';
+    color:#ff0000;
+    height: 60px;
+    width: 90px;
+    background-color: #696969;
+    margin: 5px;
+    text-align: center;
+    border-radius: 4px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.healthSumOutput h3 {
+    margin: 0;
+}
+
+.healthSumOutputValue {
+    padding: 6px;
+}
+
+
+/* Remove the arrows on number input, firefox only*/
+input[type=number] {
+    -moz-appearance: textfield;
+    width: 30px;
+}

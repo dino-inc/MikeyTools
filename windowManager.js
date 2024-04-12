@@ -7,7 +7,7 @@ function createHealthSumWindow() {
         headerTitle: 'Socialized Healthcare',
         headerToolbar: '<span class="text-sm">Socialism is when your health gets averaged.</span>',
         panelSize: {
-            width: () => { return Math.min(800, window.innerWidth*0.9);},
+            width: () => { return Math.min(400, window.innerWidth*0.9);},
             height: () => { return Math.min(500, window.innerHeight*0.6);}
         },
         animateIn: 'jsPanelFadeIn',
@@ -15,5 +15,5 @@ function createHealthSumWindow() {
     });
 
 
-    panel.content.innerHTML = "<iframe src = \"./toolpages/healthSum.html\" style=\" width:100%; height:99%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;\"></iframe>"
+    panel.content.innerHTML = "<iframe src = \"./toolpages/healthSum.html\" style=\" width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999; display: block;\"></iframe>"
 }
