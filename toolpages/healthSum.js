@@ -3,19 +3,31 @@ document.getElementsByClassName("average")[0].addEventListener("click", equalize
 document.getElementsByClassName("clear")[0].addEventListener("click", clear);
 
 function equalize(){
-    let healthPool = document.getElementsByClassName("creature")
-    let poolSum = 0;
-    let totalCount = 0;
-    for (let i = 0; i < healthPool.length; i++) {
-        console.log(parseInt(healthPool[i].value))
-        if(healthPool[i].value.length == 0) {
+    let creaturePool = document.getElementsByClassName("creature")
+    let numeratorSum = 0;
+    let denominatorSum = 0;
+    for (let i = 0; i < creaturePool.length; i++) {
+        let numerator = creaturePool[i].children[1];
+        let denominator = creaturePool[i].children[2];
+        console.log(numerator)
+        console.log(denominator)
+        if (numerator.value.length == 0 || denominator.value.length == 0) {
             continue;
         } else {
-            poolSum += parseInt(healthPool[i].value);
-            totalCount += 1;
+            numeratorSum += parseInt(numerator.value);
+            denominatorSum += parseInt(denominator.value);
         }
     } 
-    document.getElementsByClassName("healthSumOutputValue")[0].innerHTML = poolSum/totalCount;
+    let finalRatio = numeratorSum/denominatorSum
+    for (let i = 0; i < creaturePool.length; i++) {
+        let numerator = creaturePool[i].children[1];
+        let denominator = creaturePool[i].children[2];
+        if (numerator.value.length == 0 || denominator.value.length == 0) {
+            continue;
+        } else {
+            numerator.value = Math.round(finalRatio * denominator.value);
+        }
+    } 
 }
 
 function clear (){
@@ -23,6 +35,5 @@ function clear (){
     for (let i = 0; i < inputs.length; i++) {
         inputs[i].value = "";
     }
-    document.getElementsByClassName("healthSumOutputValue")[0].innerHTML = "N/A"
 
 }

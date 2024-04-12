@@ -6,10 +6,10 @@ function createHealthSumWindow() {
     let panel = jsPanel.create({
         theme: 'dark',
         headerTitle: 'Socialized Healthcare',
-        headerToolbar: '<span class="text-sm">Socialism is when your health gets averaged.</span>',
+        headerToolbar: '<span class="text-sm">Socialism is when your health gets equalized.</span>',
         panelSize: {
-            width: () => { return Math.min(400, window.innerWidth*0.9);},
-            height: () => { return Math.min(500, window.innerHeight*0.6);}
+            width: () => { return Math.min(410, window.innerWidth*0.9);},
+            height: () => { return Math.min(380, window.innerHeight*0.6);}
         },
         animateIn: 'jsPanelFadeIn',
         onwindowresize: true,
