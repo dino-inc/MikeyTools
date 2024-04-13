@@ -1,0 +1,14 @@
+:root {
+    --main-color: #121212;
+    --secondary-color: red;
+    --tertiary-color: #fb8c00;
+    --fourth-color: #ffffff;
+    --button-color: #1e1e1e;
+    --background-color: linear-gradient(90deg,#585858 0,#2c2c2c 30%,#2d2d2d 70%,#585858);
+}
+
+body {
+    background-color: #1e1e1e;
+    color: var(--fourth-color);
+    font-size: 14px;
+}
