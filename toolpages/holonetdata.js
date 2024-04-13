@@ -28,7 +28,7 @@ export const holonet = {
             "tags": ["planet"],
             "affiliation": "Hutt Cartel",
             "campaign": ["The Great Hunt", "The Fatal Fortune"],
-            "bio": "The city-moon of Nal Hutta."
+            "bio": "The city-moon of Nal Hutta. Only bad things happen here."
         }
     ]   
 }
