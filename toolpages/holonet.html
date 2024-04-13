@@ -18,11 +18,29 @@
 
 </head>
 <body>
-    No Holonet link found. CoruscantComm apologies for the inconvenience. 
-    <div id="searchHeader"></div>
-    <div id="entryList">
-        
-    </div>
+    <div id="searchHeader">Search header goes here.</div>
+    <div id = entryList></div>
+
+    <!-- Empty template for npc entries -->
+    <template id = "npcEntry">
+        <div class="npcEntry">
+            <table>
+                <tr>
+                  <td class = "name">Name</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class = "species">Species</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class = "planet">Planet</td>
+                  <td></td>
+                </tr>
+              </table>              
+        </div>
+    </template>
+
     <script type="module" src="holonet.js"></script>
 </body>
 </html>
