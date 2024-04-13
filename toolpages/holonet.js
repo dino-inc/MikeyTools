@@ -27,6 +27,9 @@ function loadData(json) {
     clonedEntry.querySelector(".affiliation + td").innerHTML = json.affiliation;
     clonedEntry.querySelector(".campaign + td").innerHTML = json.campaign;
     clonedEntry.querySelector(".bio").innerHTML = json.bio;
+    if (json.hasOwnProperty("image")) {
+        clonedEntry.querySelector("img").src = "../images/" + json.image;
+    }
 
     // NPC specific
     if(json.tags.includes("npc")) {

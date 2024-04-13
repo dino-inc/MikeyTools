@@ -18,7 +18,8 @@ export const holonet = {
             "living": true,
             "planet": "Bounty Hunters' Ship",
             "campaign": ["The Great Hunt"],
-            "bio": "A synthetic demon, this ungrateful thing delights in torturing Wawa. Kill on sight. Bounty Reward: 10000 credits."
+            "bio": "A synthetic demon, this ungrateful thing delights in torturing Wawa. Kill on sight. Bounty Reward: 10000 credits.",
+            "image": "C1AW.png"
         }
     ],
     "planets": [

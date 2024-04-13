@@ -41,3 +41,11 @@ td.name {
 td.species, td.planet, td.campaign, td.affiliation, td.living {
     width: 50px;
 }
+
+td.image {
+    width: 100px;
+}
+
+td.image img{
+    height: 200px;
+}
