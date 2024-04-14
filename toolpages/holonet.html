@@ -12,13 +12,64 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link href="holonet.css" rel="stylesheet">
+
     <!--Fuse.js for searching-->
-    <script src="https://cdn.jsdelivr.net/npm/fuse.min.js@7.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
 
 </head>
 <body>
-    No Holonet link found. CoruscantComm apologies for the inconvenience. 
+    <div id = "searchHeader">
+        <input id = "searchBar" type = "search" placeholder = "Search for Twi'lek boobs here"> 
+        <select id = "searchCategory" size = "1">
+            <option value="all">All</option>
+            <option value="affiliation">Affiliation</option>
+            <option value="campaign">Campaign</option>
+            <option value="bio">Description</option>
+            <option value="living">Living</option>
+            <option value="name" selected>Name</option>
+            <option value="planet">Planet</option>
+            <option value="species">Species</option>
+            <option value="tags">Tags</option>
+        </select>
+        <div id = "checkboxDiv">
+            <input type = "checkbox" id = "extendedSearch"> <label for="extendedSearch">Advanced</label>
+        </div>
+    </div>
+    <div id = entryList></div>
 
+    <!-- Empty template for npc entries -->
+    <template id = "entry">
+        <div class = "entry">
+            <table>
+                <tr>
+                    <td class = "name" colspan = "4">Name</td>
+                </tr>
+                <tr>
+                    <td class = "image" rowspan = "5"><img loading = "lazy" src="../images/404.jpg">
+                    </td>
+                    <td class = "species">Species</td>
+                    <td></td>
+                <tr>
+                    <td class = "planet">Planet</td>
+                    <td></td>
+                </tr>
+                    <td class = "campaign">Campaign</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class = "affiliation">Affiliation</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class = "living">Status</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class = "bio" colspan = "3">Description</td>
+                </tr>
+              </table>              
+        </div>
+    </template>
 
     <script type="module" src="holonet.js"></script>
 </body>

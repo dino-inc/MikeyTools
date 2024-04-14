@@ -26,7 +26,7 @@ function createWannaWanga() {
         headerTitle: 'De Wanna Wanga',
         headerToolbar: '<span class="text-sm">What did you say?</span>',
         panelSize: {
-            width: () => { return Math.min(560, window.innerWidth*0.9);},
+            width: () => { return Math.min(570, window.innerWidth*0.9);},
             height: () => { return Math.min(380, window.innerHeight*0.6);}
         },
         animateIn: 'jsPanelFadeIn',
@@ -42,7 +42,7 @@ function createHolonet() {
         headerTitle: 'Holonet Access Terminal',
         headerToolbar: '<span class="text-sm">Invading privacy since 20000 BTC.</span>',
         panelSize: {
-            width: () => { return Math.min(800, window.innerWidth*0.9);},
+            width: () => { return Math.min(540, window.innerWidth*0.9);},
             height: () => { return Math.min(600, window.innerHeight*0.6);}
         },
         animateIn: 'jsPanelFadeIn',
