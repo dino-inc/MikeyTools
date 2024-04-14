@@ -2,15 +2,18 @@ import {holonet} from './holonetdata.js';
 
 const allFields = ["name", "tags", "species", "affiliation", "living", "planet", "campaign", "bio"]
 let entryList = document.querySelector("#entryList");
+let urlParams = new URLSearchParams(window.location.search);
 
-
+// Add event to search bar
 document.querySelector("#searchBar").addEventListener ('keypress', function (e) {
     if (e.key === 'Enter') {
       runQuery();
     }
     });
-// Load everything to the page from holonet data
-loadEntries(holonet);
+// Default to everything if no url params specified
+if (urlParams.size == 0) {
+    loadEntries(holonet);
+}
 
 // Execute once enter is pressed on the search
 function runQuery () {
