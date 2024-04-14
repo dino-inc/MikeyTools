@@ -19,8 +19,8 @@
 </head>
 <body>
     <div id = "searchHeader">
-        <input id = "searchBar" type = "search" placeholder = "Twi'lek boobs"> 
-        <select id = "searchCategory" size = "1" multiple>
+        <input id = "searchBar" type = "search" placeholder = "Search for Twi'lek boobs here"> 
+        <select id = "searchCategory" size = "1">
             <option value="all">All</option>
             <option value="affiliation">Affiliation</option>
             <option value="campaign">Campaign</option>
@@ -31,7 +31,9 @@
             <option value="species">Species</option>
             <option value="tags">Tags</option>
         </select>
-        <input type = "checkbox" id = "extendedSearch">
+        <div id = "checkboxDiv">
+            <input type = "checkbox" id = "extendedSearch"> <label for="extendedSearch">Advanced</label>
+        </div>
     </div>
     <div id = entryList></div>
 
