@@ -13,6 +13,28 @@ body {
     font-size: 14px;
 }
 
+#searchBar {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+select {
+    margin-top: 70px;
+}
+
+input[type="search"] {
+    width: 300px;
+    margin: 10px;
+    background-color: rgb(64, 64, 64);
+    color: var(--fourth-color);
+    border-collapse: collapse;
+    border: 2px solid rgb(104, 104, 104);
+}
+
+input[type="search"]:focus {
+    outline: none;
+}
+
 table {
     border-collapse: collapse;
     border: 2px solid rgb(64, 64, 64);
@@ -24,9 +46,8 @@ table {
 }
 
 td {
-
-padding: 8px 10px;
-text-align: left;
+    padding: 8px 10px;
+    text-align: left;
 }
 
 td.name, td.bio {

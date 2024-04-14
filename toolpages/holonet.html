@@ -18,12 +18,26 @@
 
 </head>
 <body>
-    <div id="searchHeader">Search header goes here.</div>
+    <div id = "searchHeader">
+        <input id = "searchBar" type = "search" placeholder = "Twi'lek boobs"> 
+        <select id = "searchCategory" size = "1" multiple>
+            <option value="all">All</option>
+            <option value="affiliation">Affiliation</option>
+            <option value="campaign">Campaign</option>
+            <option value="bio">Description</option>
+            <option value="living">Living</option>
+            <option value="name" selected>Name</option>
+            <option value="planet">Planet</option>
+            <option value="species">Species</option>
+            <option value="tags">Tags</option>
+        </select>
+        <input type = "checkbox" id = "extendedSearch">
+    </div>
     <div id = entryList></div>
 
     <!-- Empty template for npc entries -->
     <template id = "entry">
-        <div class="entry">
+        <div class = "entry">
             <table>
                 <tr>
                     <td class = "name" colspan = "4">Name</td>

@@ -1,10 +1,38 @@
 import {holonet} from './holonetdata.js';
 
+const allFields = ["name", "tags", "species", "affiliation", "living", "planet", "campaign", "bio"]
 let entryList = document.querySelector("#entryList");
 
+
+document.querySelector("#searchBar").addEventListener ('keypress', function (e) {
+    if (e.key === 'Enter') {
+      runQuery();
+    }
+    });
 // Load everything to the page from holonet data
-loadEntries(holonet.npcs);
-loadEntries(holonet.planets);
+loadEntries(holonet);
+
+// Execute once enter is pressed on the search
+function runQuery () {
+    // Clear
+    clearTerminal();
+    // Read settings
+    let searchBar = document.querySelector("#searchBar");
+    let searchCategories = document.querySelector("#searchCategory");
+    let extendedSearch = document.querySelector("#extendedSearch");
+    let selectKeys = getSelectValues(searchCategories);
+    if(selectKeys.includes("all")) {
+        selectKeys = allFields;
+    }
+    // Run search
+    let results = search(holonet, searchBar.value, selectKeys, extendedSearch.value);
+    let postArray = [];
+    for (let i = 0; i < results.length; i++) {
+        postArray.push(results[i].item);
+    }
+    //Load results
+    loadEntries(postArray);
+}
 
 function loadEntries(json) {
     // Select the type of post to generate
@@ -53,3 +81,38 @@ function loadData(json) {
 
     entryList.appendChild(clonedEntry);
 }
+
+function clearTerminal () {
+    document.querySelector("#entryList").innerHTML = '';
+}
+
+// Basic search on provided json and keys
+function search(json, query, keysArray, extended) {
+    let options = {
+        includeScore: false,
+        useExtendedSearch: extended,
+        threshold: .4,
+        distance: 1000,
+        keys: keysArray
+    };
+    const fuse = new Fuse (json, options);
+    return fuse.search(query)
+}
+
+
+// Return an array of the selected opion values
+// select is an HTML select element
+function getSelectValues(select) {
+    var result = [];
+    var options = select && select.options;
+    var opt;
+  
+    for (var i=0, iLen=options.length; i<iLen; i++) {
+      opt = options[i];
+  
+      if (opt.selected) {
+        result.push(opt.value || opt.text);
+      }
+    }
+    return result;
+  }
