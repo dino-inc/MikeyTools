@@ -1,4 +1,4 @@
-export const holonet = [
+export const conditions = [
     {
         "name": "Bleeding X",
         "effects": ["A Bleeding creature takes X True Damage at the start of each of their turns. This True Damage ignores Temporary HP.",
