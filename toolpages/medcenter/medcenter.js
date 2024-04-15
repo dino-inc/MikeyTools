@@ -42,10 +42,21 @@ function loadEntries(json) {
 function loadData(json) {
     let clonedEntry = document.querySelector("#entry").content.cloneNode(true);
 
-    // Universal Properties
     clonedEntry.querySelector(".name").innerHTML = json.name;
-    clonedEntry.querySelector(".effect + td").innerHTML = json.effects;
 
+    // Load effects array
+    let effectNode = clonedEntry.querySelector(".effect");
+    let effectList = clonedEntry.querySelector(".entryTable");
+    for (let i = 0; i < json.effects.length; i++) {
+        let copyNode = effectNode.cloneNode(true);
+        if(i == 0) {
+            copyNode = clonedEntry.querySelector(".effect");
+        }
+        let innerRow = clonedEntry.querySelector(".effect td");
+        innerRow.innerHTML = json.effects[i];
+        console.log("Adding "+copyNode+" with "+ json.effects[i])
+        effectList.appendChild(copyNode);
+    }
     entryList.appendChild(clonedEntry);
 }
 
