@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikey Tools</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Star wars font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="medcenter.css" rel="stylesheet">
+
+    <!--Fuse.js for searching-->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+
+</head>
+<body>
+    <div id = "searchHeader">
+        <input id = "searchBar" type = "search" placeholder = "bleeding to death please help"> 
+    </div>
+    <div id = entryList></div>
+
+    <!-- Empty template for condition entries -->
+    <template id = "entry">
+        <div class = "entry">
+            <table>
+                <tr>
+                    <td class = "name">Name</td>
+                </tr>
+                <tr>
+                    <td class = "effect">Effects</td>
+                </tr>
+              </table>              
+        </div>
+    </template>
+
+    <script type="module" src="medcenter.js"></script>
+</body>
+</html>
