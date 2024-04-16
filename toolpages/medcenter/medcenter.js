@@ -4,10 +4,8 @@ let entryList = document.querySelector("#entryList");
 let urlParams = new URLSearchParams(window.location.search);
 
 // Add event to search bar
-document.querySelector("#searchBar").addEventListener ('keypress', function (e) {
-    if (e.key === 'Enter') {
+document.querySelector("#searchBar").addEventListener ('keyup', function (e) {
       runQuery();
-    }
     });
 // Default to everything if no url params specified
 if (urlParams.size == 0) {
