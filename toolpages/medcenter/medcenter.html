@@ -19,7 +19,7 @@
 </head>
 <body>
     <div id = "searchHeader">
-        <input id = "searchBar" type = "search" placeholder = "bleeding to death please help"> 
+        <input id = "searchBar" type = "search" placeholder = "Triangular Blaster Wound"> 
     </div>
     <div id = entryList></div>
 
@@ -32,11 +32,26 @@
                         <td class = "name" colspan = "2">Name</td>
                     </tr>
                     <tr class = "effect">
-                        <td>Template</td>
+                        <td></td>
                     </tr>
                 </tbody>
             </table>              
         </div>
+    </template>
+    <!-- Empty template for effect table -->
+    <template id = "effectTable">
+        <table>
+            <tbody class = "effectTableTbody">
+                <tr>
+                    <td class = "level">Level</td>
+                    <td class = "effect">Effect</td>
+                </tr>
+                <tr class = "tableEntry">
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
     </template>
 
     <script type="module" src="medcenter.js"></script>

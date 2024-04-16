@@ -138,8 +138,11 @@ export const conditions = [
     },
     {
         "name": "Slowed",
-        "effects": ["Some abilities, effects, and hazards can lead to a special condition called slowed. Slowed is measured in four levels. An effect can give a creature one or more levels of slowed, as specified in the effect’s description.",
-                    "TABLE[[LEVEL, EFFECT],[1, Speed reduced by 15 feet],[2, Speed reduced by 25 feet],[3, Speed reduced by 30 feet],[4, Speed reduced to 0 and can't benefit from any bonus to speed]]",
+        "effects": ["Some abilities, effects, and hazards can lead to a special condition called slowed. Slowed is  measured  in four levels. An effect can give a creature one or more levels of slowed, as specified in the effect’s    description.",
+                    [["1", "Speed reduced by 15 feet"],
+                    ["2", "Speed reduced by 25 feet"],
+                    ["3", "Speed reduced by 30 feet"],
+                    ["4", "Speed reduced to 0 and can't benefit from any bonus to speed"]],
                     "If an already slowed creature suffers another effect that causes it to be slowed, its current slowed level increases by the amount specified in the effect’s description.",
                     "An effect that removes slowed reduces its level as specified in the effect’s description, with all slowed effects ending if a creature’s slowed level is reduced below 1.",
                     ],

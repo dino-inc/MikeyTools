@@ -96,3 +96,20 @@ td.image {
 td.image img{
     height: 200px;
 }
+
+.effect td table  {
+    width: 470px;
+}
+
+.effect td table td{
+    border-collapse: separate;
+    border: 2px solid rgb(69, 69, 69);
+}
+
+.effect td table td:nth-child(1) {
+    width: 1px;
+    align-content: center;
+}
+.effect td table td:nth-child(2) {
+    width: 370px;
+}
