@@ -55,37 +55,107 @@ export const holonet = [
         "tags": ["planet"],
         "affiliation": "Hutt Cartel",
         "campaign": ["The Great Hunt", "The Fatal Fortune"],
-        "bio": "The city-moon of Nal Hutta. May the desperate prosper."
+        "bio": "The city-moon of Nal Hutta. May the desperate prosper.",
+        "image": "nar shaddaa loading.jpg"
     },
     {
         "name": "Coruscant",
         "tags": ["planet"],
         "affiliation": "Republic",
         "campaign": ["The Fatal Fortune"],
-        "bio": "Urban sprawl made manifest, this ecumenopolis is the keystone of the Republic. Tourists are advised to avoid the lowest levels of the city."
+        "bio": "Urban sprawl made manifest, this ecumenopolis is the keystone of the Republic. Tourists are advised to avoid the lowest levels of the city.",
+        "image": "coruscant_loading.jpg"
     },
     {
         "name": "Alderaan",
         "tags": ["planet"],
-        "affiliation": "Republic and Sith",
+        "affiliation": "Independent",
         "campaign": ["The Fatal Fortune", "Legacies of the Damned"],
-        "bio": "The houses of Alderaan lay split along factional lines, plunging the planet into an endless civil war. More important, however, are the Kiliks swarming from beneath the crust to retake the surface and drive out the alien invaders."
+        "bio": "The houses of Alderaan lay split along factional lines, plunging the planet into an endless civil war. More important, however, are the Kiliks swarming from beneath the crust to retake the surface and drive out the alien invaders.",
+        "image": "alderaan_loading.jpg"
     },
     {
         "name": "Nal Hutta",
         "tags": ["planet"],
         "affiliation": "Hutt Cartel",
         "campaign": ["The Great Hunt"],
-        "bio": "The homeworld of the Hutts. Connoisseurs of swamps and toxic fumes will love it here - the planet has several award winning swamps from Galactic Weekly's Top 10 Swamps To Be Buried Alive In."
+        "bio": "The homeworld of the Hutts. Connoisseurs of swamps and toxic fumes will love it here - the planet has several award winning swamps from Galactic Weekly's Top 10 Swamps To Be Buried Alive In.",
+        "image": "hutta loading.jpg"
     },
     {
-        "name": "Tatooine",
+        "name": "Balmorra",
         "tags": ["planet"],
-        "affiliation": "Unknown",
-        "campaign": ["None"],
-        "bio": "An unremarkable desert planet. Nothing important happens here - why are you still reading? This barely got included in the database, it's that boring of a planet."
+        "affiliation": "Empire",
+        "campaign": ["The Great Hunt"],
+        "bio": "A rocky industrial world. Surrendered to the Empire in the Treaty of Coruscant.",
+        "image": "balmorra loading.jpg"
+    },
+    {
+        "name": "Dromund Kaas",
+        "tags": ["planet"],
+        "affiliation": "Empire",
+        "campaign": ["Legacies of the Damned"],
+        "bio": "The dark capital planet of the Sith Empire. Extremely stormy. Bring an umbrella.",
+        "image": "dromund kaas loading.jpg"
+    },
+    {
+        "name": "Dxun",
+        "tags": ["planet"],
+        "affiliation": "Mandalorians",
+        "campaign": ["The Great Hunt"],
+        "bio": "This moon shares an atmosphere with its planetary brother Onderon. Certain flying creatures even migrate between the two.",
+        "image": "dxun loading.jpg"
+    },
+    {
+        "name": "Korriban",
+        "tags": ["planet"],
+        "affiliation": "Empire",
+        "campaign": ["Legacies of the Damned"],
+        "bio": "The ancient homeworld of the Sith. Home to the least stable teenagers in the galaxy.",
+        "image": "korriban loading.jpg"
+    },
+    {
+        "name": "Morian",
+        "tags": ["planet"],
+        "affiliation": "Empire",
+        "campaign": ["Legacies of the Damned"],
+        "bio": "Toxic wastelands, mutant wildlife, and deranged scavengers. What's not to love?",
+        "image": "morian loading.jpg"
+    },
+    {
+        "name": "Ord Mantell",
+        "tags": ["planet"],
+        "affiliation": "Republic",
+        "campaign": ["The Fatal Fortune"],
+        "bio": "Locked in a war against Separatists, who have a cool volcano base.",
+        "image": "ord mantell loading.jpg"
+    },
+    {
+        "name": "Taris",
+        "tags": ["planet"],
+        "affiliation": "Republic",
+        "campaign": ["The Fatal Fortune"],
+        "bio": "Bombed out during the Jedi Civil War several hundred years ago, it is now a mire of swamp and ruin.",
+        "image": "taris loading.jpg"
+    },
+    {
+        "name": "Temako",
+        "tags": ["planet"],
+        "affiliation": "Independent",
+        "campaign": ["The Fatal Fortune", "Legacies of the Damned"],
+        "bio": "Skyscrapers strain for the stars while trash piles around their foundations. Capitalism, baby.",
+        "image": "temako loading.jpg"
+    },
+    {
+        "name": "Tython",
+        "tags": ["planet"],
+        "affiliation": "Republic",
+        "campaign": ["Suivvi's Betrayal"],
+        "bio": "The original home of the Jedi, rediscovered after the end of the war. Many have retreated there as public opinion of the Jedi sours.",
+        "image": "tython loading.jpg"
     },
 ]
+
 export const template = [
     {
         "name": "",
@@ -102,6 +172,6 @@ export const template = [
         "tags": ["planet"],
         "affiliation": "",
         "campaign": [""],
-        "bio": "The city-moon of Nal Hutta. May the desperate prosper."
+        "bio": ""
     },
 ]
