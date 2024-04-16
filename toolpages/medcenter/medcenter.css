@@ -1,0 +1,115 @@
+:root {
+    --main-color: #121212;
+    --secondary-color: red;
+    --tertiary-color: #fb8c00;
+    --fourth-color: #ffffff;
+    --button-color: #1e1e1e;
+    --background-color: linear-gradient(90deg,#585858 0,#2c2c2c 30%,#2d2d2d 70%,#585858);
+}
+
+body {
+    background-color: #1e1e1e;
+    color: var(--fourth-color);
+    font-size: 14px;
+}
+
+#searchHeader {
+    background-color: #424242;
+}
+
+select {
+    margin-top: 10px;
+    background-color: rgb(64, 64, 64);
+    color: var(--fourth-color);
+    border-collapse: collapse;
+    border: 2px solid rgb(104, 104, 104);
+}
+
+input[type="search"] {
+    width: 96%;
+    margin: 10px;
+    background-color: rgb(64, 64, 64);
+    color: var(--fourth-color);
+    border-collapse: collapse;
+    border: 2px solid rgb(104, 104, 104);
+}
+
+input[type="checkbox"] {
+    background-color: rgb(223, 32, 32);
+}
+
+#checkboxDiv {
+    display: inline-block;
+}
+
+input[type="search"]:focus {
+    outline: none;
+}
+
+/* Style the grid of posts */
+#entryList {
+    display: flex;
+    flex-direction: row;
+    flex-flow: center;
+    flex-wrap: wrap;
+}
+
+label {
+    font-family: 'Helvetica', 'sans-serif';
+    color:#d9d9d9;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(64, 64, 64);
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 500px;
+    margin: 10px;
+}
+
+td {
+    padding: 8px 10px;
+    text-align: left;
+}
+
+td.name, td.bio {
+    border: 1px solid rgb(104, 104, 104);
+}
+
+td.name {
+    font-family: 'Russo One', 'Helvetica', 'sans-serif';
+    color: var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
+}
+
+td.species, td.planet, td.campaign, td.affiliation, td.living {
+    width: 50px;
+}
+
+td.image {
+    width: 100px;
+}
+
+td.image img{
+    height: 200px;
+}
+
+.effect td table  {
+    width: 470px;
+}
+
+.effect td table td{
+    border-collapse: separate;
+    border: 2px solid rgb(69, 69, 69);
+}
+
+.effect td table td:nth-child(1) {
+    width: 1px;
+    align-content: center;
+}
+.effect td table td:nth-child(2) {
+    width: 370px;
+}

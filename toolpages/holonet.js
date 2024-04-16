@@ -27,6 +27,12 @@ function runQuery () {
     if(selectKeys.includes("all")) {
         selectKeys = allFields;
     }
+
+    // Short circuit if no query
+    if (searchBar.value == "") {
+        loadEntries(holonet);
+        return;
+    }
     // Run search
     let results = search(holonet, searchBar.value, selectKeys, extendedSearch.value);
     let postArray = [];
