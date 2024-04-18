@@ -370,25 +370,44 @@ export const holonet = [
         "bio": ""
     },
     {
-        "name": "Gele'ren",
+        "name": "Braden",
         "tags": ["npc"],
-        "species": "Twi'lek",
-        "affiliation": "Hutt Cartel",
+        "species": "Human",
+        "affiliation": "Unaffiliated",
         "living": false,
-        "planet": "Nar Shaddaa",
+        "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": "A lieutenant for the Hutt Cartel. Killed by the Eidolon's true damage droids."
+        "bio": ""
     },
     {
-        "name": "C1-AW",
+        "name": "Jory",
         "tags": ["npc"],
-        "species": "Droid",
-        "affiliation": "C1-AW",
-        "living": true,
-        "planet": "Bounty Hunters' Ship",
+        "species": "Nikto",
+        "affiliation": "Unaffiliated",
+        "living": false,
+        "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": "A synthetic demon, this ungrateful thing delights in torturing Wawa. Kill on sight. Bounty Reward: 10000 credits.",
-        "image": "C1AW.png"
+        "bio": ""
+    },
+    {
+        "name": "Varnan",
+        "tags": ["npc"],
+        "species": "Gran",
+        "affiliation": "Unaffiliated",
+        "living": false,
+        "planet": "Nal Hutta",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "Braden",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unafiliated",
+        "living": false,
+        "planet": "Nal Hutta",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
     },
     {
         "name": "Mako",
@@ -406,9 +425,19 @@ export const holonet = [
         "species": "Human",
         "affiliation": "Mandalorians",
         "living": true,
-        "planet": "Mandalore?",
+        "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "A firm believer that all warfare is based on deception, if deception means murder. He also believes that non-Mandalorians shouldn't compete in the Great Hunt, or something like that. It's hard to remember motivations through the film of Braden's blood coating the memories.",
+    },
+    {
+        "name": "Sedyn Kyne",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Mandalorians",
+        "living": true,
+        "planet": "Nal Hutta",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
     },
     {
         "name": "Suudaa Nem'ro",
@@ -419,6 +448,137 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "All bounty hunters in the Great Hunt require a sponsor, and he rather reluctantly chose the Bounty Hunters after trying to kill and mislead them multiple times. Likelihood of backstabbing them again: 95%.",
+    },
+    {
+        "name": "Carnus",
+        "tags": ["npc"],
+        "species": "Houk",
+        "affiliation": "Hutt Cartel",
+        "living": true,
+        "planet": "Nal Hutta",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "Doctor Albea",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Republic",
+        "living": true,
+        "planet": "Nal Hutta",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "C1-AW",
+        "tags": ["npc"],
+        "species": "Droid",
+        "affiliation": "C1-AW",
+        "living": true,
+        "planet": "Bounty Hunters' Ship",
+        "campaign": ["The Great Hunt"],
+        "bio": "A synthetic demon, this ungrateful thing delights in torturing Wawa. Kill on sight. Bounty Reward: 10000 credits.",
+        "image": "C1AW.png"
+    },
+    {
+        "name": "Crysta Markon",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "The Great Hunt",
+        "living": true,
+        "planet": "Dxun",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "The Huntmaster",
+        "tags": ["npc"],
+        "species": "Wookiee",
+        "affiliation": "The Great Hunt",
+        "living": true,
+        "planet": "Dxun",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "Assistant Huntmaster Lek",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "The Great Hunt",
+        "living": true,
+        "planet": "Dxun",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "Major Pirrell",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire",
+        "living": true,
+        "planet": "Balmorra",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "Murghir",
+        "tags": ["npc"],
+        "species": "Cathar",
+        "affiliation": "Unaffiliated",
+        "living": false,
+        "planet": "Balmorra",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "Zalia",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": false,
+        "planet": "Balmorra",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "Admiral Ivernus",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire",
+        "living": false,
+        "planet": "Balmorra",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "Gele'ren",
+        "tags": ["npc"],
+        "species": "Twi'lek",
+        "affiliation": "Hutt Cartel",
+        "living": false,
+        "planet": "Nar Shaddaa",
+        "campaign": ["The Great Hunt"],
+        "bio": "A lieutenant for the Hutt Cartel. Killed by the Eidolon's true damage droids."
+    },
+    {
+        "name": "Anuli",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Hutt Cartel",
+        "living": false,
+        "planet": "Nar Shaddaa",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
+    },
+    {
+        "name": "The Eidolon",
+        "tags": ["npc"],
+        "species": "Zabrak",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Nar Shaddaa",
+        "campaign": ["The Great Hunt"],
+        "bio": ""
     },
     {
         "name": "Nar Shaddaa",
