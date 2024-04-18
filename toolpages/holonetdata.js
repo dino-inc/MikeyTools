@@ -1,6 +1,6 @@
 export const holonet = [
     {
-        "name": "Gelleran",
+        "name": "Gele'ren",
         "tags": ["npc"],
         "species": "Twi'lek",
         "affiliation": "Hutt Cartel",
