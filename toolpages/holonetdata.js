@@ -123,7 +123,7 @@ export const holonet = [
         "name": "Ga'ram",
         "tags": ["npc"],
         "species": "Twi'lek",
-        "affiliation": "Unaffiliated",
+        "affiliation": "Hutt Cartel",
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
@@ -186,7 +186,7 @@ export const holonet = [
         "affiliation": "House Alde",
         "living": true,
         "planet": "Alderaan",
-        "campaign": ["The Fatal Fortune"],
+        "campaign": ["The Fatal Fortune", "Legacies of the Damned"],
         "bio": ""
     },
     {
@@ -194,9 +194,179 @@ export const holonet = [
         "tags": ["npc"],
         "species": "Human",
         "affiliation": "Unaffiliated",
-        "living": true,
+        "living": false,
         "planet": "Temako",
         "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Darth Skotia",
+        "tags": ["npc"],
+        "species": "Human (Cyborg)",
+        "affiliation": "Sith Empire",
+        "living": false,
+        "planet": "Dromund Kaas",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Darth Zash",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire",
+        "living": false,
+        "planet": "Dromund Kaas",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Darth Thanaton",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire",
+        "living": true,
+        "planet": "Dromund Kaas",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Aloysius Kallig",
+        "tags": ["npc"],
+        "species": "Unknown",
+        "affiliation": "Ancient Sith",
+        "living": false,
+        "planet": "Dromund Kaas",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Major Bessiker",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire",
+        "living": true,
+        "planet": "Morian",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Hiram Bessiker",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire",
+        "living": true,
+        "planet": "Morian",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Iannos Tyrek",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire (formerly, defected)",
+        "living": false,
+        "planet": "Morian",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Captain Ilun",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire",
+        "living": true,
+        "planet": "Morian",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Rylee Dray",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Cult of the Screaming Blade",
+        "living": true,
+        "planet": "Temako",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Destris Veran",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Cult of the Screaming Blade",
+        "living": true,
+        "planet": "Temako",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Lord Paladius",
+        "tags": ["npc"],
+        "species": "Sith",
+        "affiliation": "Cult of the Screaming Blade",
+        "living": false,
+        "planet": "Temako",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Elana Thul",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "House Thul",
+        "living": true,
+        "planet": "Alderaan",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Urtel Moren",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire",
+        "living": true,
+        "planet": "Alderaan",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Rehanna Rist",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "House Rist",
+        "living": true,
+        "planet": "Alderaan",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Aland Organa",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Jedi Order",
+        "living": true,
+        "planet": "Alderaan",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Saras",
+        "tags": ["npc"],
+        "species": "Killik",
+        "affiliation": "Killiks",
+        "living": true,
+        "planet": "Alderaan",
+        "campaign": ["Legacies of the Damned"],
+        "bio": ""
+    },
+    {
+        "name": "Overseer Harkun",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Sith Empire",
+        "living": true,
+        "planet": "Korriban",
+        "campaign": ["Legacies of the Damned"],
         "bio": ""
     },
     {
