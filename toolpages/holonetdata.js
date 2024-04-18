@@ -1,5 +1,205 @@
 export const holonet = [
     {
+        "name": "Skavak",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": false,
+        "planet": "Ord Mantell",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Corso Riggs",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Smuggler Party",
+        "living": true,
+        "planet": "Ord Mantell",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Viidu",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": false,
+        "planet": "Ord Mantell",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Syreena",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Ord Mantell",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Darmas Pollaran",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Coruscant",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Miel Muwn",
+        "tags": ["npc"],
+        "species": "Sullustan",
+        "affiliation": "Sullustan Constable Brigade",
+        "living": true,
+        "planet": "Coruscant",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Kixi",
+        "tags": ["npc"],
+        "species": "Mirialan",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Coruscant",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Risha",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Smuggler Party",
+        "living": true,
+        "planet": "Coruscant",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Agent Soganti",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Republic Customs Enforcement",
+        "living": true,
+        "planet": "Taris",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Beryl Thorne",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Taris",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Tyrodall",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Taris",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Drooga",
+        "tags": ["npc"],
+        "species": "Hutt",
+        "affiliation": "Hutt Cartel",
+        "living": true,
+        "planet": "Nar Shaddaa",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Ga'ram",
+        "tags": ["npc"],
+        "species": "Twi'lek",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Nar Shaddaa",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Lazhae",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Nar Shaddaa",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Momi Andrell",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Nar Shaddaa",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Cessec",
+        "tags": ["npc"],
+        "species": "Killik",
+        "affiliation": "Killiks",
+        "living": true,
+        "planet": "Nar Shaddaa",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Lenn Teraan",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "House Teraan",
+        "living": true,
+        "planet": "Alderaan",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Cedonia Teraan",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "House Teraan",
+        "living": true,
+        "planet": "Alderaan",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Peema Ahuff",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "House Alde",
+        "living": true,
+        "planet": "Alderaan",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
+        "name": "Nok Drayen",
+        "tags": ["npc"],
+        "species": "Human",
+        "affiliation": "Unaffiliated",
+        "living": true,
+        "planet": "Temako",
+        "campaign": ["The Fatal Fortune"],
+        "bio": ""
+    },
+    {
         "name": "Gele'ren",
         "tags": ["npc"],
         "species": "Twi'lek",
