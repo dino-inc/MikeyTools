@@ -7,7 +7,7 @@ export const holonet = [
         "living": false,
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
         "image": "skavak.jpg"
     },
     {
@@ -18,7 +18,7 @@ export const holonet = [
         "living": true,
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
         "image": "corsoriggs.jpg"
     },
     {
@@ -29,7 +29,7 @@ export const holonet = [
         "living": false,
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
         "image": "viidu.jpg"
     },
     {
@@ -40,7 +40,7 @@ export const holonet = [
         "living": true,
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
         "image": "syreena.jpg"
     },
     {
@@ -51,7 +51,7 @@ export const holonet = [
         "living": true,
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
         "image": "darmaspollaran.jpg"
     },
     {
@@ -62,7 +62,7 @@ export const holonet = [
         "living": true,
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
         "image": "mielmuwn.jpg"
     },
     {
@@ -73,7 +73,7 @@ export const holonet = [
         "living": true,
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
         "image": "Kixi.jpg"
     },
     {
@@ -84,7 +84,7 @@ export const holonet = [
         "living": true,
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
         "image": "risha.jpg"
     },
     {
@@ -95,7 +95,7 @@ export const holonet = [
         "living": true,
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Beryl Thorne",
@@ -105,7 +105,7 @@ export const holonet = [
         "living": true,
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Tyrodall",
@@ -115,7 +115,7 @@ export const holonet = [
         "living": true,
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Drooga",
@@ -125,7 +125,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Ga'ram",
@@ -135,7 +135,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Lazhae",
@@ -145,7 +145,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Momi Andrell",
@@ -155,7 +155,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Cessec",
@@ -165,7 +165,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Lenn Teraan",
@@ -175,7 +175,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Cedonia Teraan",
@@ -185,7 +185,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Peema Ahuff",
@@ -195,7 +195,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune", "Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Nok Drayen",
@@ -205,7 +205,7 @@ export const holonet = [
         "living": false,
         "planet": "Temako",
         "campaign": ["The Fatal Fortune"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Darth Skotia",
@@ -215,7 +215,7 @@ export const holonet = [
         "living": false,
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Darth Zash",
@@ -225,7 +225,7 @@ export const holonet = [
         "living": false,
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Darth Thanaton",
@@ -235,7 +235,7 @@ export const holonet = [
         "living": true,
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Aloysius Kallig",
@@ -245,7 +245,7 @@ export const holonet = [
         "living": false,
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Major Bessiker",
@@ -255,7 +255,7 @@ export const holonet = [
         "living": true,
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Hiram Bessiker",
@@ -265,7 +265,7 @@ export const holonet = [
         "living": true,
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Iannos Tyrek",
@@ -275,7 +275,7 @@ export const holonet = [
         "living": false,
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Captain Ilun",
@@ -285,7 +285,7 @@ export const holonet = [
         "living": true,
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Rylee Dray",
@@ -295,7 +295,7 @@ export const holonet = [
         "living": true,
         "planet": "Temako",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Destris Veran",
@@ -305,7 +305,7 @@ export const holonet = [
         "living": true,
         "planet": "Temako",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Lord Paladius",
@@ -315,7 +315,7 @@ export const holonet = [
         "living": false,
         "planet": "Temako",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Elana Thul",
@@ -325,7 +325,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Urtel Moren",
@@ -335,7 +335,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Rehanna Rist",
@@ -345,7 +345,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Aland Organa",
@@ -355,7 +355,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Saras",
@@ -365,7 +365,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Overseer Harkun",
@@ -375,7 +375,7 @@ export const holonet = [
         "living": true,
         "planet": "Korriban",
         "campaign": ["Legacies of the Damned"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Braden",
@@ -385,7 +385,7 @@ export const holonet = [
         "living": false,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Jory",
@@ -395,7 +395,7 @@ export const holonet = [
         "living": false,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Varnan",
@@ -405,7 +405,7 @@ export const holonet = [
         "living": false,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Braden",
@@ -415,7 +415,7 @@ export const holonet = [
         "living": false,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Mako",
@@ -445,7 +445,7 @@ export const holonet = [
         "living": true,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Suudaa Nem'ro",
@@ -465,7 +465,7 @@ export const holonet = [
         "living": true,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Doctor Albea",
@@ -475,7 +475,7 @@ export const holonet = [
         "living": true,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "C1-AW",
@@ -496,7 +496,7 @@ export const holonet = [
         "living": true,
         "planet": "Dxun",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "The Huntmaster",
@@ -506,7 +506,7 @@ export const holonet = [
         "living": true,
         "planet": "Dxun",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Assistant Huntmaster Lek",
@@ -516,7 +516,7 @@ export const holonet = [
         "living": true,
         "planet": "Dxun",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Major Pirrell",
@@ -526,7 +526,7 @@ export const holonet = [
         "living": true,
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Murghir",
@@ -536,7 +536,7 @@ export const holonet = [
         "living": false,
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Zalia",
@@ -546,7 +546,7 @@ export const holonet = [
         "living": false,
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Admiral Ivernus",
@@ -556,7 +556,7 @@ export const holonet = [
         "living": false,
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Gele'ren",
@@ -576,7 +576,7 @@ export const holonet = [
         "living": false,
         "planet": "Nar Shaddaa",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "The Eidolon",
@@ -586,7 +586,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Great Hunt"],
-        "bio": ""
+        "bio": "",
     },
     {
         "name": "Nar Shaddaa",
@@ -710,6 +710,6 @@ export const template = [
         "tags": ["planet"],
         "affiliation": "",
         "campaign": [""],
-        "bio": ""
+        "bio": "",
     },
 ]
