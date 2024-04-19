@@ -8,6 +8,7 @@ export const holonet = [
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
         "bio": ""
+        "image": "skavak.jpg"
     },
     {
         "name": "Corso Riggs",
@@ -18,6 +19,7 @@ export const holonet = [
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
         "bio": ""
+        "image": "corsoriggs.jpg"
     },
     {
         "name": "Viidu",
@@ -28,6 +30,7 @@ export const holonet = [
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
         "bio": ""
+        "image": "viidu.jpg"
     },
     {
         "name": "Syreena",
@@ -38,6 +41,7 @@ export const holonet = [
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
         "bio": ""
+        "image": "syreena.jpg"
     },
     {
         "name": "Darmas Pollaran",
@@ -48,6 +52,7 @@ export const holonet = [
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
         "bio": ""
+        "image": "darmaspollaran.jpg"
     },
     {
         "name": "Miel Muwn",
@@ -58,6 +63,7 @@ export const holonet = [
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
         "bio": ""
+        "image": "mielmuwn.jpg"
     },
     {
         "name": "Kixi",
@@ -68,6 +74,7 @@ export const holonet = [
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
         "bio": ""
+        "image": "Kixi.jpg"
     },
     {
         "name": "Risha",
@@ -78,6 +85,7 @@ export const holonet = [
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
         "bio": ""
+        "image": "risha.jpg"
     },
     {
         "name": "Agent Soganti",
