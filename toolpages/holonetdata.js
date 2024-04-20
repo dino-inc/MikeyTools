@@ -206,7 +206,7 @@ export const holonet = [
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune", "Legacies of the Damned"],
         "bio": "",
-        "image": "peemmaahuff.jpg"
+        "image": "peemaahuff.jpg"
     },
     {
         "name": "Nok Drayen",
