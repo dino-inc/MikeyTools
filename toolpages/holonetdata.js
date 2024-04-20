@@ -41,7 +41,7 @@ export const holonet = [
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
-        "image": "syreena.jpg"
+        "image": "Syreena.jpg"
     },
     {
         "name": "Darmas Pollaran",
@@ -96,6 +96,7 @@ export const holonet = [
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "risha.jpg"
     },
     {
         "name": "Beryl Thorne",
@@ -106,6 +107,7 @@ export const holonet = [
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "berylthorne.jpg"
     },
     {
         "name": "Tyrodall",
@@ -116,6 +118,7 @@ export const holonet = [
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "tyrodall.jpg"
     },
     {
         "name": "Drooga",
@@ -126,6 +129,7 @@ export const holonet = [
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "drooga.jpg"
     },
     {
         "name": "Ga'ram",
@@ -136,6 +140,7 @@ export const holonet = [
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "ga'ram.jpg"
     },
     {
         "name": "Lazhae",
@@ -146,6 +151,7 @@ export const holonet = [
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "lazhae.jpg"
     },
     {
         "name": "Momi Andrell",
@@ -156,6 +162,7 @@ export const holonet = [
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "momiandrell.jpg"
     },
     {
         "name": "Cessec",
@@ -166,6 +173,7 @@ export const holonet = [
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "cessec.jpg"
     },
     {
         "name": "Lenn Teraan",
@@ -176,6 +184,7 @@ export const holonet = [
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "lennteraan.jpg"
     },
     {
         "name": "Cedonia Teraan",
@@ -186,6 +195,7 @@ export const holonet = [
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "cedoniateraan.jpg"
     },
     {
         "name": "Peema Ahuff",
@@ -196,6 +206,7 @@ export const holonet = [
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune", "Legacies of the Damned"],
         "bio": "",
+        "image": "peemmaahuff.jpg"
     },
     {
         "name": "Nok Drayen",
@@ -206,6 +217,7 @@ export const holonet = [
         "planet": "Temako",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
+        "image": "nokdrayen.jpg"
     },
     {
         "name": "Darth Skotia",
