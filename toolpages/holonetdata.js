@@ -640,6 +640,7 @@ export const holonet = [
     {
         "name": "Nar Shaddaa",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Hutt Cartel",
         "campaign": ["The Great Hunt", "The Fatal Fortune"],
         "bio": "The city-moon of Nal Hutta. May the desperate prosper.",
@@ -648,6 +649,7 @@ export const holonet = [
     {
         "name": "Coruscant",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Republic",
         "campaign": ["The Fatal Fortune"],
         "bio": "Urban sprawl made manifest, this ecumenopolis is the keystone of the Republic. Tourists are advised to avoid the lowest levels of the city.",
@@ -656,6 +658,7 @@ export const holonet = [
     {
         "name": "Alderaan",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Independent",
         "campaign": ["The Fatal Fortune", "Legacies of the Damned"],
         "bio": "The houses of Alderaan lay split along factional lines, plunging the planet into an endless civil war. More important, however, are the Kiliks swarming from beneath the crust to retake the surface and drive out the alien invaders.",
@@ -664,6 +667,7 @@ export const holonet = [
     {
         "name": "Nal Hutta",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Hutt Cartel",
         "campaign": ["The Great Hunt"],
         "bio": "The homeworld of the Hutts. Connoisseurs of swamps and toxic fumes will love it here - the planet has several award winning swamps from Galactic Weekly's Top 10 Swamps To Be Buried Alive In.",
@@ -672,6 +676,7 @@ export const holonet = [
     {
         "name": "Balmorra",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Empire",
         "campaign": ["The Great Hunt"],
         "bio": "A rocky industrial world. Surrendered to the Empire in the Treaty of Coruscant.",
@@ -680,6 +685,7 @@ export const holonet = [
     {
         "name": "Dromund Kaas",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Empire",
         "campaign": ["Legacies of the Damned"],
         "bio": "The dark capital planet of the Sith Empire. Extremely stormy. Bring an umbrella.",
@@ -688,6 +694,7 @@ export const holonet = [
     {
         "name": "Dxun",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Mandalorians",
         "campaign": ["The Great Hunt"],
         "bio": "This moon shares an atmosphere with its planetary brother Onderon. Certain flying creatures even migrate between the two.",
@@ -696,6 +703,7 @@ export const holonet = [
     {
         "name": "Korriban",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Empire",
         "campaign": ["Legacies of the Damned"],
         "bio": "The ancient homeworld of the Sith. Home to the least stable teenagers in the galaxy.",
@@ -704,6 +712,7 @@ export const holonet = [
     {
         "name": "Morian",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Empire",
         "campaign": ["Legacies of the Damned"],
         "bio": "Toxic wastelands, mutant wildlife, and deranged scavengers. What's not to love?",
@@ -712,6 +721,7 @@ export const holonet = [
     {
         "name": "Ord Mantell",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Republic",
         "campaign": ["The Fatal Fortune"],
         "bio": "Locked in a war against Separatists, who have a cool volcano base.",
@@ -720,6 +730,7 @@ export const holonet = [
     {
         "name": "Taris",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Republic",
         "campaign": ["The Fatal Fortune"],
         "bio": "Bombed out during the Jedi Civil War several hundred years ago, it is now a mire of swamp and ruin.",
@@ -728,6 +739,7 @@ export const holonet = [
     {
         "name": "Temako",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Independent",
         "campaign": ["The Fatal Fortune", "Legacies of the Damned"],
         "bio": "Skyscrapers strain for the stars while trash piles around their foundations. Capitalism, baby.",
@@ -736,11 +748,21 @@ export const holonet = [
     {
         "name": "Tython",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "Republic",
         "campaign": ["Suivvi's Betrayal"],
         "bio": "The original home of the Jedi, rediscovered after the end of the war. Many have retreated there as public opinion of the Jedi sours.",
         "image": "tython loading.jpg"
     },
+    {
+        "name": "Wawa's No Good Very Bad Day",
+        "tags": ["history"],
+        "year": "15 ATC or whatever",
+        "location": "Dxun",
+        "description": "Wawa took mortal damage and was unable to be brought back because nobody else possessed healing. The following combats became a game of Wawa football.",
+        "image": "dxun loading.jpg"
+    },
+
 ]
 
 export const template = [
@@ -758,8 +780,17 @@ export const template = [
     {
         "name": "",
         "tags": ["planet"],
+        "region": "",
         "affiliation": "",
         "campaign": [""],
         "bio": "",
+    }, 
+    {
+        "name": "",
+        "tags": ["history"],
+        "year": "",
+        "location": "",
+        "description": "",
+        "image": ""
     },
 ]

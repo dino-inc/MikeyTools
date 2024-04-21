@@ -80,7 +80,7 @@ td {
     text-align: left;
 }
 
-td.name, td.bio {
+td.name, td.bio, td.description {
     border: 1px solid rgb(104, 104, 104);
 }
 

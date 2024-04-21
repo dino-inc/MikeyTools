@@ -1,6 +1,6 @@
 import {holonet} from './holonetdata.js';
 
-const allFields = ["name", "tags", "species", "affiliation", "living", "planet", "campaign", "bio"]
+const allFields = ["name", "tags", "species", "affiliation", "living", "planet", "campaign", "bio", "region", "location", "year", "description"]
 let entryList = document.querySelector("#entryList");
 let urlParams = new URLSearchParams(window.location.search);
 
@@ -58,8 +58,12 @@ function loadEntries(json, sort) {
     }
     // Select the type of post to generate
     for (let i = 0; i < json.length; i++) {
-        if (json[i].tags.includes("npc") || json[i].tags.includes("planet")){
-            loadData(json[i]);
+        if (json[i].tags.includes("npc")) {
+            loadNPC(json[i]);
+        } else if (json[i].tags.includes("planet")){
+            loadPlanet(json[i]);
+        } else if (json[i].tags.includes("history")) {
+            loadHistory(json[i]);
         } else {
             console.log("Invalid entry" + json[i]);
             continue;
@@ -67,44 +71,74 @@ function loadEntries(json, sort) {
     }
 }
 
-// Clone the entry template and insert data
-function loadData(json) {
-    let clonedEntry = document.querySelector("#entry").content.cloneNode(true);
+// NPC card
+function loadNPC(json) {
+    let clonedEntry = document.querySelector("#npc").content.cloneNode(true);
 
-    // Universal Properties
     clonedEntry.querySelector(".name").innerHTML = json.name;
     clonedEntry.querySelector(".affiliation + td").innerHTML = json.affiliation;
-    clonedEntry.querySelector(".campaign + td").innerHTML = json.campaign;
+    clonedEntry.querySelector(".campaign + td").innerHTML = formatCampaign(json.campaign);
+    clonedEntry.querySelector(".bio").innerHTML = json.bio;
+    if (json.hasOwnProperty("image")) {
+        clonedEntry.querySelector("img").src = "../images/" + json.image;
+    }
+    if (json.living) {
+        clonedEntry.querySelector(".living + td").innerHTML = "Alive";
+    } else {
+        clonedEntry.querySelector(".living + td").innerHTML = "Dead";
+    }
+    clonedEntry.querySelector(".species + td").innerHTML = json.species;
+    clonedEntry.querySelector(".planet + td").innerHTML = json.planet;
+
+    entryList.appendChild(clonedEntry);
+}
+
+// Planet card
+function loadPlanet(json){
+    let clonedEntry = document.querySelector("#planet").content.cloneNode(true);
+
+    clonedEntry.querySelector(".name").innerHTML = json.name;
+    clonedEntry.querySelector(".region + td").innerHTML = json.region;
+    clonedEntry.querySelector(".affiliation + td").innerHTML = json.affiliation;
+    clonedEntry.querySelector(".campaign + td").innerHTML = formatCampaign(json.campaign);
     clonedEntry.querySelector(".bio").innerHTML = json.bio;
     if (json.hasOwnProperty("image")) {
         clonedEntry.querySelector("img").src = "../images/" + json.image;
     }
 
-    // NPC specific
-    if(json.tags.includes("npc")) {
-        if (json.living) {
-            clonedEntry.querySelector(".living + td").innerHTML = "Alive";
-        } else {
-            clonedEntry.querySelector(".living + td").innerHTML = "Dead";
-        }
-        clonedEntry.querySelector(".species + td").innerHTML = json.species;
-        clonedEntry.querySelector(".planet + td").innerHTML = json.planet;
-    } 
-    // Planet specific
-    else if (json.tags.includes("planet")) {
-        clonedEntry.querySelector(".living+ td").remove();
-        clonedEntry.querySelector(".living").remove();
-        clonedEntry.querySelector(".species + td").remove();
-        clonedEntry.querySelector(".species").remove();
-        clonedEntry.querySelector(".planet + td").remove();
-        clonedEntry.querySelector(".planet").remove();
+    entryList.appendChild(clonedEntry);
+}
+
+function loadHistory(json) {
+    let clonedEntry = document.querySelector("#history").content.cloneNode(true);
+
+    clonedEntry.querySelector(".name").innerHTML = json.name;
+    clonedEntry.querySelector(".year + td").innerHTML = json.year;
+    clonedEntry.querySelector(".location + td").innerHTML = json.location;
+    clonedEntry.querySelector(".description").innerHTML = json.description;
+    
+    if (json.hasOwnProperty("image")) {
+        clonedEntry.querySelector("img").src = "../images/" + json.image;
     }
 
     entryList.appendChild(clonedEntry);
 }
 
+// Nicely format the campaign array with newlines
+function formatCampaign(array) {
+    let formattedString = "";
+    console.log(array)
+    for (let i = 0; i < array.length; i++) {
+        console.log(i)
+        formattedString = formattedString.concat('\n', array[i]);
+        console.log(formattedString)
+    }
+
+    return formattedString;
+}
+
 function clearTerminal () {
-    document.querySelector("#entryList").innerHTML = '';
+    document.querySelector("#entryList").innerHTML = "";
 }
 
 // Basic search on provided json and keys

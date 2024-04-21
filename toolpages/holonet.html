@@ -24,12 +24,16 @@
             <option value="all">All</option>
             <option value="affiliation">Affiliation</option>
             <option value="campaign">Campaign</option>
-            <option value="bio">Description</option>
+            <option value="bio">Biography</option>
+            <option value="description">Description</option>
             <option value="living">Living</option>
+            <option value="location">Location</option>
             <option value="name" selected>Name</option>
             <option value="planet">Planet</option>
+            <option value="region">Region</option>
             <option value="species">Species</option>
-            <option value="tags">Tags</option>
+            <option value="year">Year</option>
+
         </select>
         <div id = "checkboxDiv">
             <input type = "checkbox" id = "extendedSearch"> <label for="extendedSearch">Advanced</label>
@@ -38,8 +42,8 @@
     <div id = entryList></div>
 
     <!-- Empty template for npc entries -->
-    <template id = "entry">
-        <div class = "entry">
+    <template id = "npc">
+        <div class = "npc entry">
             <table>
                 <tr>
                     <td class = "name" colspan = "4">Name</td>
@@ -66,6 +70,60 @@
                 </tr>
                 <tr>
                     <td class = "bio" colspan = "3">Description</td>
+                </tr>
+              </table>              
+        </div>
+    </template>
+
+    <!-- Empty template for planet entries -->
+    <template id = "planet">
+        <div class = "planet entry">
+            <table>
+                <tr>
+                    <td class = "name" colspan = "3">Name</td>
+                </tr>
+                <tr>
+                    <td class = "image" rowspan = "4"><img loading = "lazy" src="../images/404.jpg">
+                    </td>
+                </tr>
+                    <td class = "region">Region</td>
+                    <td></td>
+                </tr>
+                </tr>   
+                    <td class = "campaign">Campaign</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class = "affiliation">Affiliation</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td class = "bio" colspan = "3">Description</td>
+                </tr>
+                </table>              
+        </div>
+    </template>
+
+    <template id = "history">
+        <div class = "history entry">
+            <table>
+                <tr>
+                    <td class = "name" colspan = "3">Name</td>
+                </tr>
+                <tr>
+                    <td class = "image" rowspan = "3"><img loading = "lazy" src="../images/404.jpg">
+                    </td>
+                <tr>
+                    <td class = "year">Year</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class = "location">Location</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class = "description" colspan = "3">Description</td>
                 </tr>
               </table>              
         </div>
