@@ -753,7 +753,7 @@ export const template = [
         "planet": "",
         "campaign": [""],
         "bio": "",
-        "image":
+        "image": ""
     },
     {
         "name": "",
