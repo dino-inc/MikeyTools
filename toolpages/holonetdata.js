@@ -96,7 +96,7 @@ export const holonet = [
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
         "bio": "",
-        "image": "risha.jpg"
+        "image": "agentsoganti.jpg"
     },
     {
         "name": "Beryl Thorne",
@@ -228,6 +228,7 @@ export const holonet = [
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "darthskotia.jpg"
     },
     {
         "name": "Darth Zash",
@@ -238,6 +239,7 @@ export const holonet = [
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "darthzash.jpg"
     },
     {
         "name": "Darth Thanaton",
@@ -248,6 +250,7 @@ export const holonet = [
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "darththanaton.jpg"
     },
     {
         "name": "Aloysius Kallig",
@@ -258,6 +261,7 @@ export const holonet = [
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "aloysiuskallig.jpg"
     },
     {
         "name": "Major Bessiker",
@@ -268,6 +272,7 @@ export const holonet = [
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "majorbessiker.jpg"
     },
     {
         "name": "Hiram Bessiker",
@@ -278,6 +283,7 @@ export const holonet = [
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "hirambessiker.jpg"
     },
     {
         "name": "Iannos Tyrek",
@@ -288,6 +294,7 @@ export const holonet = [
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "iannostyrek.jpg"
     },
     {
         "name": "Captain Ilun",
@@ -298,6 +305,7 @@ export const holonet = [
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "captainilun.jpg"
     },
     {
         "name": "Rylee Dray",
@@ -308,6 +316,7 @@ export const holonet = [
         "planet": "Temako",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "ryleedray.jpg"
     },
     {
         "name": "Destris Veran",
@@ -318,6 +327,7 @@ export const holonet = [
         "planet": "Temako",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "destrisveran.jpg"
     },
     {
         "name": "Lord Paladius",
@@ -328,6 +338,7 @@ export const holonet = [
         "planet": "Temako",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "lordpaladius.jpg"
     },
     {
         "name": "Elana Thul",
@@ -338,6 +349,7 @@ export const holonet = [
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "elanathul.jpg"
     },
     {
         "name": "Urtel Moren",
@@ -348,6 +360,7 @@ export const holonet = [
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "urtelmoren.jpg"
     },
     {
         "name": "Rehanna Rist",
@@ -358,6 +371,7 @@ export const holonet = [
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "rehannarist.jpg"
     },
     {
         "name": "Aland Organa",
@@ -368,6 +382,7 @@ export const holonet = [
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "alandorgana.jpg"
     },
     {
         "name": "Saras",
@@ -378,6 +393,18 @@ export const holonet = [
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "saras.jpg"
+    },
+    {
+        "name": "Kreeble Bob",
+        "tags": ["npc"],
+        "species": "Jawa",
+        "affiliation": "Unknown",
+        "living": true,
+        "planet": "Alderaan",
+        "campaign": ["Legacies of the Damned"],
+        "bio": "",
+        "image": "kreeblebob.jpg"
     },
     {
         "name": "Overseer Harkun",
@@ -388,6 +415,7 @@ export const holonet = [
         "planet": "Korriban",
         "campaign": ["Legacies of the Damned"],
         "bio": "",
+        "image": "overseerharkun.jpg"
     },
     {
         "name": "Braden",
@@ -398,6 +426,7 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "braden.jpg"
     },
     {
         "name": "Jory",
@@ -408,6 +437,7 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "jory.jpg"
     },
     {
         "name": "Varnan",
@@ -418,16 +448,7 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "",
-    },
-    {
-        "name": "Braden",
-        "tags": ["npc"],
-        "species": "Human",
-        "affiliation": "Unafiliated",
-        "living": false,
-        "planet": "Nal Hutta",
-        "campaign": ["The Great Hunt"],
-        "bio": "",
+        "image": "varnan.jpg"
     },
     {
         "name": "Mako",
@@ -438,6 +459,7 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "A talented slicer, Mako kicks back and relaxes while the Bounty Hunters go out and nearly get killed. She worked closely with Braden and KV-27, before joining up with the Bounty Hunters. Do NOT mispronounce her name.",
+        "image": "mako.jpg"
     },
     {
         "name": "Tarro Blood",
@@ -448,6 +470,8 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "A firm believer that all warfare is based on deception, if deception means murder. He also believes that non-Mandalorians shouldn't compete in the Great Hunt, or something like that. It's hard to remember motivations through the film of Braden's blood coating the memories.",
+
+        "image": "tarroblood.jpg"
     },
     {
         "name": "Sedyn Kyne",
@@ -458,6 +482,7 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "sedynkyne.jpg"
     },
     {
         "name": "Suudaa Nem'ro",
@@ -468,6 +493,7 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "All bounty hunters in the Great Hunt require a sponsor, and he rather reluctantly chose the Bounty Hunters after trying to kill and mislead them multiple times. Likelihood of backstabbing them again: 95%.",
+        "image": "suudaanem'ro.jpg"
     },
     {
         "name": "Carnus",
@@ -478,6 +504,7 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "carnus.jpg"
     },
     {
         "name": "Doctor Albea",
@@ -488,6 +515,7 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "doctoralbea.jpg"
     },
     {
         "name": "C1-AW",
@@ -509,6 +537,7 @@ export const holonet = [
         "planet": "Dxun",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "crystamarkon.jpg"
     },
     {
         "name": "The Huntmaster",
@@ -519,6 +548,7 @@ export const holonet = [
         "planet": "Dxun",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "thehuntmaster.jpg"
     },
     {
         "name": "Assistant Huntmaster Lek",
@@ -529,9 +559,10 @@ export const holonet = [
         "planet": "Dxun",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "assistanthuntmasterlek.jpg"
     },
     {
-        "name": "Major Pirrell",
+        "name": "Lieutenant Major Pirrell",
         "tags": ["npc"],
         "species": "Human",
         "affiliation": "Sith Empire",
@@ -539,6 +570,7 @@ export const holonet = [
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "lieutenantmajorpirrell.jpg"
     },
     {
         "name": "Murghir",
@@ -549,6 +581,7 @@ export const holonet = [
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "murghir.jpg"
     },
     {
         "name": "Zalia",
@@ -559,6 +592,7 @@ export const holonet = [
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "zalia.jpg"
     },
     {
         "name": "Admiral Ivernus",
@@ -569,6 +603,7 @@ export const holonet = [
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "admiralivernus.jpg"
     },
     {
         "name": "Gele'ren",
@@ -579,6 +614,7 @@ export const holonet = [
         "planet": "Nar Shaddaa",
         "campaign": ["The Great Hunt"],
         "bio": "A lieutenant for the Hutt Cartel. Killed by the Eidolon's true damage droids."
+        "image": "gele'ren.jpg"
     },
     {
         "name": "Anuli",
@@ -589,6 +625,7 @@ export const holonet = [
         "planet": "Nar Shaddaa",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "anuli.jpg"
     },
     {
         "name": "The Eidolon",
@@ -599,6 +636,7 @@ export const holonet = [
         "planet": "Nar Shaddaa",
         "campaign": ["The Great Hunt"],
         "bio": "",
+        "image": "theeidolon.jpg"
     },
     {
         "name": "Nar Shaddaa",
