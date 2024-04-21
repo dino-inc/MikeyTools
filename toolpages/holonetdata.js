@@ -7,7 +7,7 @@ export const holonet = [
         "living": false,
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "Known to some as The Jackal of the Stars, Skavak stole the Smugglers' ship in pursuit of the Fatal Fortune. A galaxy-spanning chase and several assassination attempts later, he would meet his end at the event horizon of The Long Shadow.",
         "image": "skavak.jpg"
     },
     {
@@ -18,7 +18,7 @@ export const holonet = [
         "living": true,
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "He is an Ord Mantell native, and a true patriot. Corso worked for Viidu before Viidu's unjust and untimely death, and is somewhere adrift in Ord Mantell even now. Sometimes he sheds a single tear thinking of the gun Skavak stole.",
         "image": "corsoriggs.jpg"
     },
     {
@@ -29,7 +29,7 @@ export const holonet = [
         "living": false,
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "Connoisseur of fine art, wine, and anything luxurious, Viidu ran smuggling jobs from his gilded den on Ord Mantell. Killed in cold blood by Syreena, to gain Skavak's favor... and all for nothing, as he left the planet without her.",
         "image": "viidu.jpg"
     },
     {
@@ -40,7 +40,7 @@ export const holonet = [
         "living": true,
         "planet": "Ord Mantell",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "Spared by the Smugglers after being caught murdering Viidu, her plan to gain Skavak's affection failed when he left Ord Mantell without her.",
         "image": "Syreena.jpg"
     },
     {
@@ -51,7 +51,7 @@ export const holonet = [
         "living": true,
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "He hangs out in the old Galactic Market, finding secrets and dispensing them... for a fee. Or, in the case of information regarding Skavak, gladly.",
         "image": "darmaspollaran.jpg"
     },
     {
@@ -62,7 +62,7 @@ export const holonet = [
         "living": true,
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "The Deputizer of Fools, Miel Muwn enlisted the Smugglers to aid him in his noble quest... that happened to align with the Smugglers' interests perfectly. Later, rescued from the Justicars and sent on his way. May he find non-fatal fortune - preferably the Murustavn Ruby.",
         "image": "mielmuwn.jpg"
     },
     {
@@ -73,7 +73,7 @@ export const holonet = [
         "living": true,
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "Rescued from the Black Sun by the Smugglers, she had been enslaved and forced to slice for them, including scrubbing Skavak's criminal records. Once freed, she restored the records - with a little extra on top.",
         "image": "Kixi.jpg"
     },
     {
@@ -84,7 +84,7 @@ export const holonet = [
         "living": true,
         "planet": "Coruscant",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "A princess, born of the Royal Line of Ayelcris. She is the daughter of Nok Drayen, and spared the Smugglers after they had so graciously restored her father in pursuit of his treasure. Currently aboard the Jackal.", 
         "image": "risha.jpg"
     },
     {
@@ -95,7 +95,7 @@ export const holonet = [
         "living": true,
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "A customs officer on Taris, he was suspicious, but not suspicious enough.",
         "image": "agentsoganti.jpg"
     },
     {
@@ -106,7 +106,7 @@ export const holonet = [
         "living": true,
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "The sentimental former partner of Tyrodall, she preferred selling Taris artifacts to the less profitable demographic of families affected by the bombing of Taris.",
         "image": "berylthorne.jpg"
     },
     {
@@ -117,7 +117,7 @@ export const holonet = [
         "living": true,
         "planet": "Taris",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": " Beryl Thorne's former partner, he faked his own death and began smuggling artifacts in core samples to far more lucrative Republic customers. He came to an agreement with the Smugglers.",
         "image": "tyrodall.jpg"
     },
     {
@@ -128,7 +128,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "The hungriest boy on Nar Shaddaa. He collects endangered enemies from across the galaxy to serve as main courses on his party barge.",
         "image": "drooga.jpg"
     },
     {
@@ -139,7 +139,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "The chief steward of Drooga's party barge. The primary means by which the Smugglers communicated with Drooga.",
         "image": "ga'ram.jpg"
     },
     {
@@ -150,7 +150,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "A tinkerer of genes, this future conqueror of the galaxy just has to perfect his Lazhaean creations. Was, somehow, not murdered for his ethical shortcomings.",
         "image": "lazhae.jpg"
     },
     {
@@ -161,7 +161,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "The daughter of a senator, the Smugglers left her to be experimented upon by Lazhae. Probably alive... to some degree.",
         "image": "momiandrell.jpg"
     },
     {
@@ -172,7 +172,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "A hive mind of the Kiliks, one of Cessec's components was saved on Nar Shaddaa by the Smugglers on Drooga's party barge. Later, on Alderaan, was convinced to take over House Bayliss.",
         "image": "cessec.jpg"
     },
     {
@@ -183,7 +183,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "One of the few surviving members of House Teraan, he enlisted the help of the Smugglers to retrieve an item from their former house, now owned by House Bayliss.",
         "image": "lennteraan.jpg"
     },
     {
@@ -194,7 +194,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "One of the few surviving members of House Teraan, she enlisted the help of the Smugglers to retrieve an item from their former house, now owned by House Bayliss.",
         "image": "cedoniateraan.jpg"
     },
     {
@@ -205,7 +205,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["The Fatal Fortune", "Legacies of the Damned"],
-        "bio": "",
+        "bio": "The curator of the Royal Museum of Alderaan, Peema cares deeply for his work. He does not suffer fools or fakes.",
         "image": "peemaahuff.jpg"
     },
     {
@@ -216,7 +216,7 @@ export const holonet = [
         "living": false,
         "planet": "Temako",
         "campaign": ["The Fatal Fortune"],
-        "bio": "",
+        "bio": "From king in exile to pirate, Nok Drayen amassed a fortune and then faked his death after being incurably poisoned. Attempted to convince Risha to kill the Smugglers and assume the crown once unfrozen, years later.",
         "image": "nokdrayen.jpg"
     },
     {
@@ -227,7 +227,7 @@ export const holonet = [
         "living": false,
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Mostly cyborg, an EMP rocket at the command of Darth Zash ended his life.",
         "image": "darthskotia.jpg"
     },
     {
@@ -238,7 +238,7 @@ export const holonet = [
         "living": false,
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Gaslighting girlboss of the Sith, she groomed Kass to be her successor. Literally.",
         "image": "darthzash.jpg"
     },
     {
@@ -249,7 +249,7 @@ export const holonet = [
         "living": true,
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Master of Darth Skotia and Darth Zash, he hated Darth Zash with a passion.",
         "image": "darththanaton.jpg"
     },
     {
@@ -260,7 +260,7 @@ export const holonet = [
         "living": false,
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Apprentice of Tulak Hord, he forcefully inhabited Kass. A frequent visitor in flashbacks.",
         "image": "aloysiuskallig.jpg"
     },
     {
@@ -271,7 +271,7 @@ export const holonet = [
         "living": true,
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "An Imperial Resource officer on Morian, Bessiker's son was captured by scavengers on his very first mission.",
         "image": "majorbessiker.jpg"
     },
     {
@@ -282,7 +282,7 @@ export const holonet = [
         "living": true,
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Captured by scavengers on his first mission on Morian. Racist, and now freed.",
         "image": "hirambessiker.jpg"
     },
     {
@@ -293,7 +293,7 @@ export const holonet = [
         "living": false,
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Scientist on Morian, executed for treason against the Empire after being captured by the Inquisitors.",
         "image": "iannostyrek.jpg"
     },
     {
@@ -304,7 +304,7 @@ export const holonet = [
         "living": true,
         "planet": "Morian",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Second in command to Commander Bessiker.",
         "image": "captainilun.jpg"
     },
     {
@@ -315,7 +315,7 @@ export const holonet = [
         "living": true,
         "planet": "Temako",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Given the cult in the name of Kass, along with Destris. A pretty decent choice for the leader of a cult.",
         "image": "ryleedray.jpg"
     },
     {
@@ -326,7 +326,7 @@ export const holonet = [
         "living": true,
         "planet": "Temako",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Given the cult in the name of Kass, along with Rylee. Probably not a great choice for the leader of a cult.",
         "image": "destrisveran.jpg"
     },
     {
@@ -337,7 +337,7 @@ export const holonet = [
         "living": false,
         "planet": "Temako",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Former leader of the Cult of the Screaming Blade, he was couped and replaced by Kass in dramatic fashion.",
         "image": "lordpaladius.jpg"
     },
     {
@@ -348,7 +348,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Lady of house Thul.",
         "image": "elanathul.jpg"
     },
     {
@@ -359,7 +359,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Personal bodyguard of Elana Thul. Is continuously seething.",
         "image": "urtelmoren.jpg"
     },
     {
@@ -370,7 +370,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "House Rist is a house of assassins, and Rehanna is no exception. Not considered to be the most noble of houses, but it's best not to get too far on their bad side.",
         "image": "rehannarist.jpg"
     },
     {
@@ -381,7 +381,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Jedi Knight of House Organa, and held the keys to their vault.",
         "image": "alandorgana.jpg"
     },
     {
@@ -392,7 +392,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "They love harmonica music. Bortol provided them with a concert.",
         "image": "saras.jpg"
     },
     {
@@ -403,7 +403,7 @@ export const holonet = [
         "living": true,
         "planet": "Alderaan",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Shoots. Leaves. Refuses to elaborate.",
         "image": "kreeblebob.jpg"
     },
     {
@@ -414,7 +414,7 @@ export const holonet = [
         "living": true,
         "planet": "Korriban",
         "campaign": ["Legacies of the Damned"],
-        "bio": "",
+        "bio": "Taught Kass in the Sith Academy, and absolutely detests him. Not racist, just really hates slaves.",
         "image": "overseerharkun.jpg"
     },
     {
@@ -425,7 +425,7 @@ export const holonet = [
         "living": false,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "Former bounty hunter, current corpse. Slain by Sedyn Kayn at the command of Tarro Blood in an unsuccessful attempt to stop the Bounty Hunters. Survived by Mako, KV-27, and The Wanderer.",
         "image": "braden.jpg"
     },
     {
@@ -436,7 +436,7 @@ export const holonet = [
         "living": false,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "Murdered along with Braden. Loved weapons.",
         "image": "jory.jpg"
     },
     {
@@ -447,7 +447,7 @@ export const holonet = [
         "living": false,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "Murdered along with Braden.",
         "image": "varnan.jpg"
     },
     {
@@ -480,7 +480,7 @@ export const holonet = [
         "living": true,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "A Mandalorian, he works with Tarro Blood. Murdered Braden and his team.",
         "image": "sedynkyne.jpg"
     },
     {
@@ -502,7 +502,7 @@ export const holonet = [
         "living": true,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "The lieutenant of Nemro, he appreciates a good solid dose of violence.",
         "image": "carnus.jpg"
     },
     {
@@ -513,7 +513,7 @@ export const holonet = [
         "living": true,
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "A bounty target, she was inexplicably saved by the Bounty Hunters and let go.",
         "image": "doctoralbea.jpg"
     },
     {
@@ -535,7 +535,7 @@ export const holonet = [
         "living": true,
         "planet": "Dxun",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "Handler of the Bounty Hunters, she assigns them their targets. Immune to the Wanderer's rizz.",
         "image": "crystamarkon.jpg"
     },
     {
@@ -546,7 +546,7 @@ export const holonet = [
         "living": true,
         "planet": "Dxun",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "A rare albino Wookiee, he runs the hunt!",
         "image": "thehuntmaster.jpg"
     },
     {
@@ -557,7 +557,7 @@ export const holonet = [
         "living": true,
         "planet": "Dxun",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "The assistant... to the Huntmaster.",
         "image": "assistanthuntmasterlek.jpg"
     },
     {
@@ -568,7 +568,7 @@ export const holonet = [
         "living": true,
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "The most loyal servant of the Empire. Unjustly prosecuted by Admiral Ivernus for 'crimes against the Empire'.",
         "image": "lieutenantmajorpirrell.jpg"
     },
     {
@@ -579,7 +579,7 @@ export const holonet = [
         "living": false,
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "An undercover operative for the rival team in the Great Hunt on Balmorra. Probably had sex with Major Pirrell.",
         "image": "murghir.jpg"
     },
     {
@@ -590,7 +590,7 @@ export const holonet = [
         "living": false,
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "Slicer sent in to help take over a droid factory. Killed by the Wanderer for no reason after the mission was completed.",
         "image": "zalia.jpg"
     },
     {
@@ -601,7 +601,7 @@ export const holonet = [
         "living": false,
         "planet": "Balmorra",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "'Silence, you pathetic excuse for an officer. I have come all the way here just to see you executed in person.' - Admiral Ivernus",
         "image": "admiralivernus.jpg"
     },
     {
@@ -623,7 +623,7 @@ export const holonet = [
         "living": false,
         "planet": "Nar Shaddaa",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "Sacrificial boy. Dared to talk about his future and doomed to die.",
         "image": "anuli.jpg"
     },
     {
@@ -634,7 +634,7 @@ export const holonet = [
         "living": true,
         "planet": "Nar Shaddaa",
         "campaign": ["The Great Hunt"],
-        "bio": "",
+        "bio": "The leading figure of Eidolon Securities. Captured and delivered to a Hutt's garden, he is now the favorite nesting spot for giant carnivorous bats.",
         "image": "theeidolon.jpg"
     },
     {
@@ -753,6 +753,7 @@ export const template = [
         "planet": "",
         "campaign": [""],
         "bio": "",
+        "image":
     },
     {
         "name": "",
