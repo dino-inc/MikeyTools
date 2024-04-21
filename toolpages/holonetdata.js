@@ -260,7 +260,7 @@ export const holonet = [
         "living": false,
         "planet": "Dromund Kaas",
         "campaign": ["Legacies of the Damned"],
-        "bio": "Apprentice of Tulak Hord, he forcefully inhabited Kass. A frequent visitor in flashbacks.",
+        "bio": "Apprentice of Tulak Hord, he forcefully inhabited Kass. A frequent visitor in flashbacks, he faded away after making peace with Kass (mostly).",
         "image": "aloysiuskallig.jpg"
     },
     {
