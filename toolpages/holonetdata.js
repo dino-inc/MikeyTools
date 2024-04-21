@@ -470,7 +470,6 @@ export const holonet = [
         "planet": "Nal Hutta",
         "campaign": ["The Great Hunt"],
         "bio": "A firm believer that all warfare is based on deception, if deception means murder. He also believes that non-Mandalorians shouldn't compete in the Great Hunt, or something like that. It's hard to remember motivations through the film of Braden's blood coating the memories.",
-
         "image": "tarroblood.jpg"
     },
     {
@@ -613,7 +612,7 @@ export const holonet = [
         "living": false,
         "planet": "Nar Shaddaa",
         "campaign": ["The Great Hunt"],
-        "bio": "A lieutenant for the Hutt Cartel. Killed by the Eidolon's true damage droids."
+        "bio": "A lieutenant for the Hutt Cartel. Killed by the Eidolon's true damage droids.",
         "image": "gele'ren.jpg"
     },
     {
