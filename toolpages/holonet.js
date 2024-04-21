@@ -12,7 +12,7 @@ document.querySelector("#searchBar").addEventListener ('keypress', function (e) 
     });
 // Default to everything if no url params specified
 if (urlParams.size == 0) {
-    loadEntries(holonet);
+    loadEntries(holonet, true);
 }
 
 // Execute once enter is pressed on the search
@@ -40,10 +40,22 @@ function runQuery () {
         postArray.push(results[i].item);
     }
     //Load results
-    loadEntries(postArray);
+    loadEntries(postArray, false);
 }
 
-function loadEntries(json) {
+function loadEntries(json, sort) {
+    function compareNames(a, b) {
+        // sort alphabetically
+        if(a.name > b.name) {
+            return 1;
+        } else if (b.name > a.name) {
+            return -1;
+        }
+        return 0;
+    }
+    if (sort) {
+        json = json.sort(compareNames);
+    }
     // Select the type of post to generate
     for (let i = 0; i < json.length; i++) {
         if (json[i].tags.includes("npc") || json[i].tags.includes("planet")){
