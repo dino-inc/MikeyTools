@@ -757,7 +757,8 @@ export const holonet = [
     {
         "name": "Wawa's No Good Very Bad Day",
         "tags": ["history"],
-        "year": "15 ATC or whatever",
+        "year": "15 ATC",
+        "era": "Cold War",
         "location": "Dxun",
         "description": "Wawa took mortal damage and was unable to be brought back because nobody else possessed healing. The following combats became a game of Wawa football.",
         "image": "dxun loading.jpg"
@@ -789,6 +790,7 @@ export const template = [
         "name": "",
         "tags": ["history"],
         "year": "",
+        "era": "",
         "location": "",
         "description": "",
         "image": ""

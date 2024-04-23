@@ -1,6 +1,6 @@
 import {holonet} from './holonetdata.js';
 
-const allFields = ["name", "tags", "species", "affiliation", "living", "planet", "campaign", "bio", "region", "location", "year", "description"]
+const allFields = ["name", "tags", "species", "affiliation", "living", "planet", "campaign", "bio", "region", "location", "year", "description", "era"]
 let entryList = document.querySelector("#entryList");
 let urlParams = new URLSearchParams(window.location.search);
 
@@ -136,6 +136,7 @@ function loadHistory(json) {
 
     clonedEntry.querySelector(".name").innerHTML = json.name;
     clonedEntry.querySelector(".year + td").innerHTML = json.year;
+    clonedEntry.querySelector(".era+ td").innerHTML = json.era;
     clonedEntry.querySelector(".location + td").innerHTML = json.location;
     clonedEntry.querySelector(".description").innerHTML = json.description;
     
