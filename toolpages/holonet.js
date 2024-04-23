@@ -5,10 +5,22 @@ let entryList = document.querySelector("#entryList");
 let urlParams = new URLSearchParams(window.location.search);
 
 // Add event to search bar
-// Add event to search bar
 document.querySelector("#searchBar").addEventListener ('keyup', function (e) {
     runQuery();
 });
+// Toggleable category buttons
+let catButtons = document.querySelectorAll(".categoryButton")
+for (let i = 0; i < catButtons.length; i++) {
+    catButtons[i].addEventListener ('click', function (e) {
+        if (this.value == "true") {
+            this.value = "false";
+        } else {
+            this.value = "true";
+        };
+        runQuery();
+    });
+}
+
 // Default to everything if no url params specified
 if (urlParams.size == 0) {
     loadEntries(holonet, true);
@@ -16,6 +28,7 @@ if (urlParams.size == 0) {
 
 // Execute once enter is pressed on the search
 function runQuery () {
+    // let initialTimestamp = Date.now();
     // Clear
     clearTerminal();
     // Read settings
@@ -26,20 +39,30 @@ function runQuery () {
     if(selectKeys.includes("all")) {
         selectKeys = allFields;
     }
-
+    // Apply tag filters
+    let categoryButtons = document.querySelectorAll(".categoryButton")
+    let filteredHolonet = holonet;
+    for (let i = 0; i < categoryButtons.length; i++) {
+        if (categoryButtons[i].value == "false") {
+            console.log("filtering "+ categoryButtons[i].name)
+            filteredHolonet = filterTagJson(filteredHolonet, "tags", categoryButtons[i].name);
+        }
+    }
+    console.log("done")
     // Short circuit if no query
     if (searchBar.value == "") {
-        loadEntries(holonet);
-        return;
+        loadEntries(filteredHolonet);
+    } else {
+        // Run search
+        let results = search(filteredHolonet, searchBar.value, selectKeys, extendedSearch.value);
+        let postArray = [];
+        for (let i = 0; i < results.length; i++) {
+            postArray.push(results[i].item);
+        }
+        //Load results
+        loadEntries(postArray, false);
     }
-    // Run search
-    let results = search(holonet, searchBar.value, selectKeys, extendedSearch.value);
-    let postArray = [];
-    for (let i = 0; i < results.length; i++) {
-        postArray.push(results[i].item);
-    }
-    //Load results
-    loadEntries(postArray, false);
+    // console.log("Entries loaded in "+(Date.now() - initialTimestamp)+ "ms")
 }
 
 function loadEntries(json, sort) {
@@ -126,11 +149,8 @@ function loadHistory(json) {
 // Nicely format the campaign array with newlines
 function formatCampaign(array) {
     let formattedString = "";
-    console.log(array)
     for (let i = 0; i < array.length; i++) {
-        console.log(i)
         formattedString = formattedString.concat('\n', array[i]);
-        console.log(formattedString)
     }
 
     return formattedString;
@@ -169,4 +189,11 @@ function getSelectValues(select) {
       }
     }
     return result;
+  }
+
+// Filter out the specified value
+  function filterTagJson(array, field, val) {
+    return array.filter(function (el) {
+        return !el[field].includes(val);
+    });
   }

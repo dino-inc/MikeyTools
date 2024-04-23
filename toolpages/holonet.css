@@ -13,13 +13,16 @@ body {
     font-size: 14px;
 }
 
+/* Searchbar styling */
 #searchHeader {
     background-color: #424242;
+    border-radius: 3px;
 }
 
 #searchBar {
     margin-top: 0;
     margin-bottom: 10px;
+
 }
 
 select {
@@ -51,6 +54,28 @@ input[type="search"]:focus {
     outline: none;
 }
 
+button {
+    margin-top: 0px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+button[value="true"] {
+    background-color: rgb(0, 104, 127);
+}
+
+button[value="false"] {
+    background-color: rgb(142, 142, 142);
+}
+
+
+button:first-of-type {
+    margin: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
 /* Style the grid of posts */
 #entryList {
     display: flex;
@@ -63,6 +88,7 @@ label {
     font-family: 'Helvetica', 'sans-serif';
     color:#d9d9d9;
     font-size: 14px;
+
 }
 
 table {

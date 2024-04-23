@@ -44,7 +44,7 @@ function createHolonet() {
         headerToolbar: '<span class="text-sm">Invading privacy since 20000 BTC.</span>',
         panelSize: {
             width: () => { return Math.min(540, window.innerWidth*0.9);},
-            height: () => { return Math.min(600, window.innerHeight*0.6);}
+            height: () => { return Math.min(800, window.innerHeight*0.6);}
         },
         animateIn: 'jsPanelFadeIn',
         onwindowresize: true,
