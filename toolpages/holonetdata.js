@@ -763,6 +763,15 @@ export const holonet = [
         "description": "Wawa took mortal damage and was unable to be brought back because nobody else possessed healing. The following combats became a game of Wawa football.",
         "image": "dxun loading.jpg"
     },
+    {
+        "name": "The Architects",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "The Galaxy",
+        "description": "Although the Republic has existed for millennia, there is evidence to suggest that long before its founding, a highly advanced race ruled the galaxy. Referred to as the 'Architects' or 'Celestials' by scholars, these beings possessed remarkable technology capable of constructing or realigning solar systems. The Corellia system, for example, appears to have been artificially constructed. These claims would seem extraordinary, but many of the Architects' machines survived the ages. The Vultar system was home to an immense 'Cosmic Turbine' that could only have been Architect technology, before misuse destroyed both the turbine and the Vultar system itself. The fabled Centerpoint Station is thought to be an Architect installation, though many species have claimed it as the work of their own people. In addition to their engineering marvels, it is believed that the Architects seeded the Core Worlds with life--particularly humans--though some attribute this to the Rakata's Infinite Empire. Despite the proof of their achievements, however, there is little evidence to suggest where the Architects came from or what eventually became of them.",
+        "image": ""
+    },
 
 ]
 
