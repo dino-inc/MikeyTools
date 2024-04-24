@@ -772,6 +772,7 @@ export const holonet = [
         "affiliation": "Independent",
         "campaign": ["The Great Hunt"],
         "bio": "Sand. Desert. Jawas. Such is life on Tatooine.",
+        "image": "tatooine_loading.jpg"
     },
     {
         "name": "The Architects",
