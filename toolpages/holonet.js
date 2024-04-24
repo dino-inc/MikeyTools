@@ -213,9 +213,12 @@ function compareNames(a, b) {
 // Sort function for sorting by BTC/ATC year
 function compareYears(a, b) {
     // Regex outputs in the format [Year, ATC/BTC]
-    let yearRegEx = /([0-9]*) (ATC|BTC)/;
+    let yearRegEx = /([0-9,]*) (ATC|BTC)/;
     let yearA = yearRegEx.exec(a.year);
     let yearB = yearRegEx.exec(b.year);
+    yearA[1] = parseInt(yearA[1].replace(/,/g, ''));
+    yearB[1] = parseInt(yearB[1].replace(/,/g, ''));
+    
     // BTC comes before ATC
     if(yearA[2] == "BTC" && yearB[2] == "ATC") {
         return -1;
