@@ -627,6 +627,17 @@ export const holonet = [
         "image": "anuli.jpg"
     },
     {
+        "name": "Jude",
+        "tags": ["npc"],
+        "species": "Twi'lek",
+        "affiliation": "Hutt Cartel",
+        "living": true,
+        "planet": "Nar Shaddaa",
+        "campaign": ["The Great Hunt"],
+        "bio": "The paymaster for Nem'ro. Also a dirty rat.",
+        "image": "jude.png"
+    },
+    {
         "name": "The Eidolon",
         "tags": ["npc"],
         "species": "Zabrak",
@@ -753,6 +764,14 @@ export const holonet = [
         "campaign": ["Suivvi's Betrayal"],
         "bio": "The original home of the Jedi, rediscovered after the end of the war. Many have retreated there as public opinion of the Jedi sours.",
         "image": "tython loading.jpg"
+    },
+    {
+        "name": "Tatooine",
+        "tags": ["planet"],
+        "region": "Outer Rim",
+        "affiliation": "Independent",
+        "campaign": ["The Great Hunt"],
+        "bio": "Sand. Desert. Jawas. Such is life on Tatooine.",
     },
     {
         "name": "The Architects",
