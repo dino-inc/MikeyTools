@@ -754,6 +754,114 @@ export const holonet = [
         "bio": "The original home of the Jedi, rediscovered after the end of the war. Many have retreated there as public opinion of the Jedi sours.",
         "image": "tython loading.jpg"
     },
+    {
+        "name": "The Architects",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "The Galaxy",
+        "description": "Although the Republic has existed for millennia, there is evidence to suggest that long before its founding, a highly advanced race ruled the galaxy. Referred to as the 'Architects' by scholars, these beings possessed remarkable technology capable of constructing or realigning solar systems. The Corellia system, for example, appears to have been artificially constructed. These claims would seem extraordinary, but many of the Architects' machines survived the ages. The Vultar system was home to an immense 'Cosmic Turbine' that could only have been Architect technology, before misuse destroyed both the turbine and the Vultar system itself. The fabled Centerpoint Station is thought to be an Architect installation, though many species have claimed it as the work of their own people. In addition to their engineering marvels, it is believed that the Architects seeded the Core Worlds with life--particularly humans--though some attribute this to the Rakata's Infinite Empire. Despite the proof of their achievements, however, there is little evidence to suggest where the Architects came from or what eventually became of them.",
+        "image": ""
+    },
+    {
+        "name": "Ancient Civilizations",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "The Galaxy",
+        "description": "In the period after the mysterious Architects vanished from the galaxy millennia ago, several great civilizations rose in their place. The intellectual Columi species created a vast but peaceful empire, focusing on academic pursuits while droids and elaborate machines labored for them. As a result, the Columi evolved enormous craniums and tiny bodies. The strange, reptilian Kwa, who achieved interstellar travel through Infinity Gates that allowed them to effectively teleport between worlds, rose and mysteriously fell, eventually devolving into simple lizards. The cephalopod Gree also reached their apex in this time, creating technological marvels that have rarely been equaled. Eventually, on the backs of these civilizations would come the Rakata and their Infinite Empire.",
+        "image": ""
+    },
+    {
+        "name": "The Zhell-Taung War",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "Coruscant",
+        "description": "In the millennia before the founding of the Republic, humans had not yet developed spaceflight. One human population--perhaps the only one--was confined to Coruscant, divided into thirteen tribes. This nearly proved disastrous when a volcanic eruption caused a near-extinction event, wiping out a large percentage of human life. This made the humans easy prey for the Taung, a gray-skinned species that reveled in battle. Awed by the majesty of the eruption's ash cloud, the Taung took the name 'Warriors of the Shadow,' descended on the surviving humans and subjugated them. Gradually the fighting force of the thirteen human tribes--known as the Battalions of Zhell--mustered a resistance against the Taung. After years of struggle, the Battalions managed to repel the Taung and claim their freedom. Coruscant has been the seat of humanity ever since.",
+        "image": ""
+    },
+    {
+        "name": "Birth of the Jeda'ii",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "Tython",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "The Ascension of King Adas",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "Korriban",
+        "description": "The ancient Sith on Korriban--not an order of Force users, but a distinct species native to the planet--were distinctive for their yellow eyes and blood-red skin. But the warrior Adas was unlike his brothers; his skin was jet-black and he towered over his fellow Sith. Through violence and cunning, he fought his way to become ruler of the Sith and united their nations through a bloody war. He later took the title 'Sith'ari,' meaning 'overlord.' King Adas's ascension may have been helped by an untrained Force sensitivity. Certainly Adas was long-lived; his reign lasted three hundred years, and only came to an end when the Infinite Empire launched an assault on Korriban. The title Sith'ari remains a key tenet of Sith lore, eventually coming to refer to a perfect being in Sith philosophy.",
+        "image": ""
+    },
+    {
+        "name": "Conquest of the Infinite Empire",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "The Galaxy",
+        "description": "The 'Infinite Empire' was the name the Rakata people gave to their magnificent but ultimately flawed civilization--one that eventually encompassed more than five hundred known worlds. Their rise was fueled by their impressive technology, powered by what would later be called the Force. Using it, the Rakata developed the first known hyperdrives. Slowly, the Rakata became corrupted by their power. They began enslaving entire species, including the peoples of Coruscant. The Rakata also attacked Korriban, ruled by the great King Adas. Although their attack failed to enslave the pureblooded Sith species, King Adas was killed. Without his leadership, Korriban was plunged into civil war. The Rakata's slaves were put to work building monuments to the Infinite Empire's glory. Among the Infinite Empire's achievements was the Star Forge, a space station capable of producing nigh-endless droids and starships. However, the Star Forge was fueled by the dark side of the Force. Using it only hastened the Rakata's fall.",
+        "image": ""
+    },
+    {
+        "name": "The Force War",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "Tython",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Fall of the Rakata",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "The Galaxy",
+        "description": "The Rakata species had created a glorious Infinite Empire with their Force-fueled machines, but cracks were beginning to show. The cruelty of the Rakata to their slaves and occupied worlds grew more pronounced. If a planet's population rebelled, that entire world would be burned to glass. Despite this, more slave rebellions began to rise across the galaxy, forcing the Rakata to divide their forces to deal with them. A plague, perhaps created by the rebelling slaves or by Rakata dissidents, began to decimate the Rakata population. The Rakata realized that, possibly due to the plague, they were losing their connection to the Force; without it, they were cut off from their technology. The fall of the Infinite Empire, once it began, was swift. The slaves overwhelmed their Rakata overseers, who fled into the Unknown Regions of the galaxy. The Rakata degenerated into a tribal culture and even resorted to cannibalism. The Infinite Empire was gone; only its technology was left behind.",
+        "image": ""
+    },
+    {
+        "name": "Rise of Interstellar Spaceflight",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "The Core Worlds, Seat of the Empire",
+        "description": "Free of the Infinite Empire's enslavement, the humans of Coruscant began investigating the technology their Rakata masters had left. Although they couldn't use the Force-powered machines, the humans learned enough to make tentative forays into space, using slower-than-light vessels manned by crews kept in suspended animation for decades at a time. Slowly, humans began to colonize new worlds: Alsakan, Metellos, Alderaan. The first explorers to Alderaan discovered the remains of strange insect nests, later known to be built by the Killiks. The pureblooded Sith species on Korriban, having survived both the Infinite Empire's onslaught and a bloody civil war after the death of their king, also became intrigued by the machines the Rakata left behind. Suddenly a spacefaring civilization, the Sith species left Korriban and eventually established a new colony on the planet Ziost.",
+        "image": ""
+    },
+    {
+        "name": "Invention of the Hyperspace Cannon",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "The Galaxy",
+        "description": "Early spaceflights were conducted with sleeper ships, their crews preserved via suspended animation over the long journeys to other worlds. But these journeys were incredibly slow. Remembering the efficient hyperdrive technology of the Infinite Empire, the most brilliant scientists of the galaxy began to study what remained of those machines, despite the claims of Tiran, the Drall scientist who centuries before said that nothing could travel faster than the speed of light. Eventually, this led to the development of a hyperspace 'cannon.' These cannons allowed a ship to be propelled into hyperspace, though a second cannon was required for a ship to return to its origin point. The Core Worlds quickly established a hyperspace cannon network. The children of Coruscant soon encountered the Duros civilization, whose people became some of the earliest--and most daring--hyperspace explorers. The true colonization of the galaxy had begun.",
+        "image": ""
+    },
+    {
+        "name": "The Ascension of Xim the Despot",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "Tion Cluster",
+        "description": "As the Core Worlds began to expand, another power in the galaxy was rising. The Tion Cluster, an area of the Mid-Rim inhabited by the descendants of ancient sleeper ship crews, had developed a new hyperspace beacon technology based on fragments left by the Infinite Empire--far superior than the hyperspace cannons previously in use. The Tion Cluster was gradually conquered by an arrogant and powerful pirate prince, known to history as the despot Xim. Using the new hyperspace technology, he despoiled world after world, taking slaves and ruthlessly expanding his territory. His rule of the Tion Cluster lasted for thirty years and saw the conquest of hundreds of thousands of planets. Xim might have continued his rule unchallenged even longer, but he chose to expand his empire into a new area of space, one already inhabited by the powerful Hutt Empire.",
+        "image": ""
+    },
+    {
+        "name": "The Tionese-Hutt War",
+        "tags": ["history"],
+        "year": "",
+        "era": "Pre-Republic",
+        "location": "The Mid-Rim, Hutt Space",
+        "description": "Seeking to expand his territory, the ancient Tionese despot Xim began exploring the Si'klaata Cluster--and for the first time, encountered a force that could challenge him. This region belonged to the Hutt Empire. Although young, the Hutt Empire had already grown immensely powerful through its criminal enterprises, helped by the long lifespan of the Hutts. The Hutts correctly assessed the threat Xim presented and poured resources into fighting him near the planet Vontor. Despite their strength, the Hutts were not certain of victory until they discovered the Si'klaata Cluster was home to several other powerful species, including the Nikto, Klatooinians, and Weequay. In a typical gambit, the Hutts managed to persuade these three species to sign the Treaty of Vontor, which bound them to the Hutts in perpetual slavery. With these additional forces, the Hutts overwhelmed Xim at the third Battle of Vontor. Xim died a Hutt prisoner, leaving his vast holdings and territory free for the taking.",
+        "image": ""
+    },
 ]
 
 export const template = [
