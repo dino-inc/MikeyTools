@@ -754,16 +754,6 @@ export const holonet = [
         "bio": "The original home of the Jedi, rediscovered after the end of the war. Many have retreated there as public opinion of the Jedi sours.",
         "image": "tython loading.jpg"
     },
-    {
-        "name": "Wawa's No Good Very Bad Day",
-        "tags": ["history"],
-        "year": "15 ATC",
-        "era": "Cold War",
-        "location": "Dxun",
-        "description": "Wawa took mortal damage and was unable to be brought back because nobody else possessed healing. The following combats became a game of Wawa football.",
-        "image": "dxun loading.jpg"
-    },
-
 ]
 
 export const template = [

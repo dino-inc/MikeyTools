@@ -23,7 +23,12 @@ for (let i = 0; i < catButtons.length; i++) {
 
 // Default to everything if no url params specified
 if (urlParams.size == 0) {
-    loadEntries(holonet, true);
+    if (detectSort()) {
+        loadEntries(holonet, "alph");
+    } else {
+        loadEntries(holonet, "year");
+    }
+
 }
 
 // Execute once enter is pressed on the search
@@ -44,14 +49,16 @@ function runQuery () {
     let filteredHolonet = holonet;
     for (let i = 0; i < categoryButtons.length; i++) {
         if (categoryButtons[i].value == "false") {
-            console.log("filtering "+ categoryButtons[i].name)
             filteredHolonet = filterTagJson(filteredHolonet, "tags", categoryButtons[i].name);
         }
     }
-    console.log("done")
     // Short circuit if no query
     if (searchBar.value == "") {
-        loadEntries(filteredHolonet);
+        if (detectSort()) {
+            loadEntries(filteredHolonet, "alph");
+        } else {
+            loadEntries(filteredHolonet, "year");
+        }
     } else {
         // Run search
         let results = search(filteredHolonet, searchBar.value, selectKeys, extendedSearch.value);
@@ -60,23 +67,16 @@ function runQuery () {
             postArray.push(results[i].item);
         }
         //Load results
-        loadEntries(postArray, false);
+        loadEntries(postArray, "none");
     }
     // console.log("Entries loaded in "+(Date.now() - initialTimestamp)+ "ms")
 }
 
 function loadEntries(json, sort) {
-    function compareNames(a, b) {
-        // sort alphabetically
-        if(a.name > b.name) {
-            return 1;
-        } else if (b.name > a.name) {
-            return -1;
-        }
-        return 0;
-    }
-    if (sort) {
+    if (sort == "alph") {
         json = json.sort(compareNames);
+    } else if (sort == "year") {
+        json = json.sort(compareYears);
     }
     // Select the type of post to generate
     for (let i = 0; i < json.length; i++) {
@@ -175,7 +175,7 @@ function search(json, query, keysArray, extended) {
 }
 
 
-// Return an array of the selected opion values
+// Return an array of the selected option values
 // select is an HTML select element
 function getSelectValues(select) {
     var result = [];
@@ -198,3 +198,63 @@ function getSelectValues(select) {
         return !el[field].includes(val);
     });
   }
+
+// Sort function for alphabetical order
+function compareNames(a, b) {
+    // sort alphabetically
+    if(a.name > b.name) {
+        return 1;
+    } else if (b.name > a.name) {
+        return -1;
+    }
+    return 0;
+}
+
+// Sort function for sorting by BTC/ATC year
+function compareYears(a, b) {
+    // Regex outputs in the format [Year, ATC/BTC]
+    let yearRegEx = /([0-9]*) (ATC|BTC)/;
+    let yearA = yearRegEx.exec(a.year);
+    let yearB = yearRegEx.exec(b.year);
+    // BTC comes before ATC
+    if(yearA[2] == "BTC" && yearB[2] == "ATC") {
+        return -1;
+    //ATC comes after BTC
+    } else if (yearA[2] == "ATC" && yearB[2] == "BTC") {
+        return 1;
+    // Larger numbers come before in BTC
+    } else if (yearA[2] == "BTC" && yearB[2] == "BTC") {
+        if (yearA[1] > yearB[1]) {
+            return -1;
+        } else if (yearA[1] < yearB[1])  {
+            return 1;
+        } else {
+            return 0;
+        }
+    // Smaller numbers come before in ATC
+    } else if (yearA[2] == "ATC" && yearB[2] == "ATC") {
+        if (yearA[1] < yearB[1]) {
+            return -1;
+        } else if (yearA[1] > yearB[1])  {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+    return 0;
+}
+
+// true if alphabetical sort, false if year sort
+function detectSort () {
+    let categoryButtons = document.querySelectorAll(".categoryButton")
+    let alphSort = true;
+    for (let i = 0; i < categoryButtons.length; i++) {
+        if (categoryButtons[i].name != "history" && categoryButtons[i].value == "true") {
+            alphSort = true;
+            break;
+        } else if (categoryButtons[i].name == "history" && categoryButtons[i].value == "true") {
+            alphSort = false;
+        }
+    }
+    return alphSort;
+}
