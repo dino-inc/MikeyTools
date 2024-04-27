@@ -1002,7 +1002,7 @@ export const holonet = [
     {
         "name": "The Trial of the Daragons",
         "tags": ["history"],
-        "year": "1,347.1",
+        "year": "1,347.1 BTC",
         "era": "The Great Hyperspace War",
         "location": "Korriban",
         "description": "For years, the Sith Lord Naga Sadow had been arguing unsuccessfully that the Sith Empire needed to expand. His chance came when Gav and Jori Daragon, two hyperspace explorers, accidentally discovered Korriban. With the Daragons sentenced to death, Sadow helped them escape, planning to use them to rediscover the hyperspace routes to the Republic. He then claimed to the Sith Council that Republic agents had freed the prisoners. Surely invasion was imminent? Naga Sadow's rival, Ludo Kressh, grew suspicious. As Sadow began to train Gav Daragon as his protege, Kressh raised a force against Sadow, hoping to expose his treachery. But Sadow crushed Kressh's armies and declared himself Dark Lord of the Sith. In the confusion of the battle, Jori Daragon fled back to the Republic, not realizing her ship carried a homing beacon for the Sith to follow.",
@@ -1011,7 +1011,7 @@ export const holonet = [
     {
         "name": "The Great Hyperspace War Begins",
         "tags": ["history"],
-        "year": "1,347.2",
+        "year": "1,347.2 BTC",
         "era": "The Great Hyperspace War",
         "location": "The Galaxy",
         "description": "The Sith had never forgotten their first exile from Republic space. With a trail unwittingly laid by the hyperspace explorer Jori Daragon, Sith Lord Naga Sadow saw a chance for revenge and to expand the borders of the Sith Empire. He had tricked the Sith Council into believing the Republic was about to attack and united several Sith factions into a massive invasion fleet. Meanwhile, Jori Daragon had done her best to warn the Republic of an impending Sith invasion, but only the warlord Empress Teta believed her. Teta was still gathering her armies when Sadow's entire fleet arrived in the Koros system and opened fire. Jedi and Republic forces rallied quickly, but strengthened by Sith sorcery, Sadow's attacks were unpredictable and devastating. The conflict quickly spread throughout the galaxy, until even Coruscant was threatened. The Great Hyperspace War became the first conflict on a truly galactic scale.",
@@ -1020,7 +1020,7 @@ export const holonet = [
     {
         "name": "The Battle of Primus Goluud",
         "tags": ["history"],
-        "year": "1,347.3",
+        "year": "1,347.3 BTC",
         "era": "The Great Hyperspace War",
         "location": "The Core Worlds",
         "description": "Toward the end of the Great Hyperspace War, besieged on all sides by the forces of Naga Sadow's Sith Empire, the Republic prepared for a last, desperate stand at the red giant Primus Goluud. Sadow's fleet clashed with the might of the Republic Navy, while Sith forces fought the Jedi on the surface of Coruscant itself. Gav Daragon, who had been fooled into becoming Naga Sadow's servant, led the assault on his homeworld, Koros Major. When one of his friends was killed, Gav realized Sadow had been manipulating him, and defected to the Republic. Alongside Empress Teta's forces, he joined the battle at Primus Goluud. Trapped, Sadow used a superweapon to explode the red giant. Sadow's forces escaped into hyperspace before the shockwave hit; Gav Daragon was killed, but not before he had transmitted Korriban's coordinates to Empress Teta and the Republic fleet.",
@@ -1029,7 +1029,7 @@ export const holonet = [
     {
         "name": "The Great Hyperspace War Ends",
         "tags": ["history"],
-        "year": "1,347.4",
+        "year": "1,347.4 BTC",
         "era": "The Great Hyperspace War",
         "location": "The Galaxy",
         "description": "Naga Sadow's attempt to conquer the Republic in the Great Hyperspace War had failed. After the battle at Primus Goluud, he led the limping Sith fleet back to Korriban, only to find an old enemy waiting for him. His rival Ludo Kressh, believed dead, now commanded a fleet of his own. The two Sith Lords fought furiously, only to be interrupted by the Republic fleet, which had pursued Sadow through hyperspace. The Republic began to attack the Sith forces, quickly gaining the upper hand. Sadow took desperate measures. He forced one of his captains to ram Kressh's flagship, killing his rival once and for all. Left with only a single vessel and a crew of slaves, Sadow escaped the battle and fled to the remote jungle world of Yavin Four. Sadow then placed himself in a long stasis, still dreaming of a Sith golden age.",
@@ -1038,7 +1038,7 @@ export const holonet = [
     {
         "name": "The Rise of the Sith Emperor",
         "tags": ["history"],
-        "year": "1,347.5",
+        "year": "1,347.5 BTC",
         "era": "The Great Hyperspace War",
         "location": "The Seat of the Empire",
         "description": "With the end of the Great Hyperspace War, the Republic and the Jedi began to purge the remnants of the Sith Empire--obliterating its power centers, destroying its dark teachings and leaving its people without a clear leader. The Supreme Chancellor and his allies argued that this was not a battle against the Empire's citizenry, but a necessary step to free the Sith from corruption. The survivors among the Sith--and they were few, as famine, disease and infighting claimed those who did not continue to face down the Republic--saw it as a deathblow to their culture. But a savior arose: The man who would one day become Emperor of the Sith had weathered the war with a number of trusted followers. No record of the Sith Emperor's original identity has survived, but he was quickly accepted as the leader of the almost-shattered Sith Empire. Although the Republic had temporarily retreated from the Horuset system, the Sith Emperor knew that Korriban would not be safe for long. While the few survivors emerged from their shelters in the deserts and shattered tombs, the Sith Emperor began to devise a plan, centuries in the execution, that would ensure the survival of the Sith and the eventual annihilation of the Republic.",
@@ -1047,7 +1047,7 @@ export const holonet = [
     {
         "name": "The Long Exile",
         "tags": ["history"],
-        "year": "1,346",
+        "year": "1,346 BTC",
         "era": "The Great Hyperspace War",
         "location": "The Seat of the Empire",
         "description": "Led by their new Emperor, the survivors of the Sith Empire had left Korriban aboard a small fleet following the Great Hyperspace War. There was no place in known space they could hide from the Republic--and so, undaunted, they fled into the unknown regions of the galaxy. Where the old Sith Empire had often been divided by rivalries, the survivors were now united, both by their desire to find a new home and by their anger at the Republic that had sought to destroy them. For decades, the fleet wandered among the stars--until one day, a scout vessel returned to the armada with incredible news. Either by luck or by the esoteric designs of the often-silent Emperor, the Sith had rediscovered a long-lost outpost world: the jungle planet of Dromund Kaas. Absent from any star charts, Dromund Kaas presented a perfect refuge where the Sith Empire could rebuild and plan its revenge.",
@@ -1056,7 +1056,7 @@ export const holonet = [
     {
         "name": "The Discovery of Dromund Kaas",
         "tags": ["history"],
-        "year": "1326",
+        "year": "1326 BTC",
         "era": "The Great Hyperspace War",
         "location": "Dromund Kaas",
         "description": "Once an outpost of the ancient Sith Empire, the planet Dromund Kaas now presented a refuge to the Empire's weary survivors after their long exile from Korriban. Upon landing, the Emperor addressed the populace, promising them that from this world, a new civilization would grow to eventually crush the Republic. The challenges of colonizing such a wild planet were soon evident. Dromund Kaas's jungles were untamed, full of dangerous predators. To ensure order and discipline, military service became mandatory for non-Force sensitives. Imperial citizens took pride in this duty, knowing they were defending the future of their people. Before withdrawing into isolation, the Emperor established a Dark Council to oversee the Empire and control the hierarchy of the Sith. He is said to have conducted many dark side rituals and experiments that affected the planet itself, leaving Dromund Kaas storm-wracked to this day.",
@@ -1065,7 +1065,7 @@ export const holonet = [
     {
         "name": "The Discovery of Ryll",
         "tags": ["history"],
-        "year": "1302",
+        "year": "1302 BTC",
         "era": "The Great Hyperspace War",
         "location": "Outer Rim Territories",
         "description": "In the years after the Great Hyperspace War, a discovery was made on the Twi'lek homeworld of Ryloth--the spice called ryll. Ryll was a component in several medicines, but was also a powerful stimulant. Sensing opportunity, Neimoidian traders quickly gained a monopoly on ryll and were keen to introduce it to other species. One of these species was the Porporites, a peaceful people who had recently made first contact with the Republic. But in contrast to other species, ryll drove the Porporites into homicidal fury. Eventually, the entire species was composed of raging maniacs who began attacking other worlds. Alarmed, the Republic asked the Jedi to take action against the Porporites, but the intervention was unsuccessful. The Neimoidians, fearing for their livelihoods, decided more desperate measures might be necessary and turned to Gank mercenaries for help.",
@@ -1074,7 +1074,7 @@ export const holonet = [
     {
         "name": "The Gank Massacres",
         "tags": ["history"],
-        "year": "1301",
+        "year": "1301 BTC",
         "era": "The Great Hyperspace War",
         "location": "Outer Rim Territories",
         "description": "Addicted to the spice ryll--which drove them into a murderous frenzy--the Porporite species had become a threat to the galaxy. The Neimoidians had a monopoly on ryll and, terrified of the coming Porporite swarm, turned to the Ganks to stop the Porporites quickly. The Ganks were mysterious, cybernetic mercenaries that often worked for the Hutts. With the Ganks' reputation as cold-blooded killers, the Neimoidians were confident they could handle the Porporite armies. But the Ganks' solution was to eliminate the entire Porporites species, and they hunted the Porporites to extinction. Encouraged by this 'success,' the Ganks began wiping out other species, quickly becoming a far greater threat than the Porporites. The Jedi took up arms against them, but Supreme Chancellor Vocatara was forced to commission the first juggernaut droids to end the Gank menace for good.",
@@ -1083,7 +1083,7 @@ export const holonet = [
     {
         "name": "The Quarren-Mon Calamari War",
         "tags": ["history"],
-        "year": "1225",
+        "year": "1225 BTC",
         "era": "The Great Hyperspace War",
         "location": "Outer Rim Territories",
         "description": "Although the Quarren and Mon Calamari both evolved on the watery world of Dac, it was millennia before the two species encountered each other. Unfortunately, initial contact went badly and the Quarren declared war. The Mon Calamari had a technological and intellectual advantage, but the Quarren repeatedly refused any overtures of peace. Eventually, the Quarren were driven to near-extinction. But the Mon Calamari had no wish to exterminate their cousins. In a bold social experiment, the Mon Calamari took young Quarren into their society and taught them civilization, mathematics and the sciences. When these young Quarren returned to their people, they had nothing in common with their primitive fellows. Within twenty years, they had become the dominant force in Quarren society, and eventually sought peace with the Mon Calamari.",
