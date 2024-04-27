@@ -213,38 +213,51 @@ function compareNames(a, b) {
 // Sort function for sorting by BTC/ATC year
 function compareYears(a, b) {
     // Regex outputs in the format [Year, ATC/BTC]
-    let yearRegEx = /([0-9,]*) (ATC|BTC)/;
+    let yearRegEx = /([0-9,]*).([0-9]*) (ATC|BTC)/;
     let yearA = yearRegEx.exec(a.year);
     let yearB = yearRegEx.exec(b.year);
     yearA[1] = parseInt(yearA[1].replace(/,/g, ''));
     yearB[1] = parseInt(yearB[1].replace(/,/g, ''));
+    yearA[2] = parseInt(yearA[2]);
+    yearB[2] = parseInt(yearB[2]);
+    console.log(yearA)
     
     // BTC comes before ATC
-    if(yearA[2] == "BTC" && yearB[2] == "ATC") {
+    if(yearA[3] == "BTC" && yearB[3] == "ATC") {
         return -1;
     //ATC comes after BTC
-    } else if (yearA[2] == "ATC" && yearB[2] == "BTC") {
+    } else if (yearA[3] == "ATC" && yearB[3] == "BTC") {
         return 1;
     // Larger numbers come before in BTC
-    } else if (yearA[2] == "BTC" && yearB[2] == "BTC") {
+    } else if (yearA[3] == "BTC" && yearB[3] == "BTC") {
         if (yearA[1] > yearB[1]) {
             return -1;
         } else if (yearA[1] < yearB[1])  {
             return 1;
         } else {
-            return 0;
+            return compareDec(yearA[2], yearB[2]);
         }
     // Smaller numbers come before in ATC
-    } else if (yearA[2] == "ATC" && yearB[2] == "ATC") {
+    } else if (yearA[3] == "ATC" && yearB[3] == "ATC") {
         if (yearA[1] < yearB[1]) {
             return -1;
         } else if (yearA[1] > yearB[1])  {
             return 1;
         } else {
-            return 0;
+            return compareDec(yearA[2], yearB[2]);
         }
     }
     return 0;
+}
+
+function compareDec(a, b) {
+    if (a > b) {
+        return 1;
+    } else if (a < b) {
+        return -1;
+    } else {
+        return 0;
+    }
 }
 
 // true if alphabetical sort, false if year sort
