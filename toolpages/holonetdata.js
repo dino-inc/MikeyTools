@@ -894,7 +894,7 @@ export const holonet = [
     {
         "name": "The End of Tionese Independence",
         "tags": ["history"],
-        "year": "",
+        "year": "20,250 BTC",
         "era": "Colonial Period",
         "location": "The Mid-Rim",
         "description": "The Tionese Cluster, once a great civilization ruled by the despot Xim, entered its fading years as the Republic began its ascension. The third great power in the galaxy, the Hutt Empire, was also thriving. The Hutts used their criminal influence to control entire worlds, extorting and enslaving their subjects. Fear of the Hutts drove many worlds to seek membership in the Republic; truthfully, far more than the Republic could safely allow. Eventually, war broke out between the Tion Cluster and the Republic. Despite--or because of--the Tionese's lack of resources, the Republic found them a dangerous foe. In response, Republic spies quietly stirred up trouble between the Tion Cluster and their old enemies, the Hutt Empire. Facing a war on two fronts, the Tionese submitted to the Republic. The worlds of the Tion Cluster gradually came under the Republic's banner, finally ending their long enmity.",
@@ -903,7 +903,7 @@ export const holonet = [
     {
         "name": "The Colonization of Mandalore",
         "tags": ["history"],
-        "year": "",
+        "year": "18,000 BTC",
         "era": "Colonial Period",
         "location": "Outer Rim Territories",
         "description": "The gray-skinned Taung species, which clashed with humans long before the formation of the Republic, had lost none of its fearsome reputation over the years. The Taung revered conflict in all forms, relishing the chance to test themselves against powerful enemies. While the young Republic continued to expand, the Taung also sought out and colonized many worlds. Eventually they discovered an Outer Rim planet populated by enormous, vicious beasts called mythosaurs. The Taung took the world for their own, calling it Mandalore after their leader, Mandalore the First. The mythosaurs were hunted to extinction by the powerful Taung; in time, mythosaur bones were used to build Mandalore's first cities.",
@@ -912,7 +912,7 @@ export const holonet = [
     {
         "name": "The Arkanian Dissents",
         "tags": ["history"],
-        "year": "",
+        "year": "17,750 BTC",
         "era": "Colonial Period",
         "location": "The Core Worlds",
         "description": "During the boom period of early Republic expansion, dissent arose from the unlikeliest of quarters: the planet Arkania. Colonized by the first explorers from Coruscant long before the development of the hyperdrive, Arkania had been a member of the Core Worlds for centuries. But as the planet grew more powerful and influential, its Senators believed that Arkania, not Coruscant, should be the capital of the Republic. A series of skirmishes called the 'Arkanian Dissents' broke out, slowing Republic growth as it tried to quell Arkania's forces. Despite the best efforts of Republic diplomats and generals, Arkanian leadership remained subversive, and seventeen such uprisings would occur over the next several thousand years. Later, the battle cruisers built during the Arkanian Dissents would inspire the Republic's Invincible-class dreadnought.",
@@ -921,7 +921,7 @@ export const holonet = [
     {
         "name": "The Duinuogwuin Contention",
         "tags": ["history"],
-        "year": "",
+        "year": "16,500 BTC",
         "era": "Colonial Period",
         "location": "The Core Worlds, Outer Rim Territories",
         "description": "In their travels, the early Republic explorers encountered many bizarre and fascinating species. Most of these first contacts were peaceful, but while charting worlds in the Outer Rim, scouts encountered enormous, flame-breathing reptiles known as Duinuogwuin. The terrified scouts opened fire and fled the planet, eventually returning to Coruscant--only to discover they'd been followed. The Duinuogwuin began waging war against the capital in what would be called the 'Duinuogwuin Contention.' Supreme Chancellor Fillorean, often criticized in the Senate for being hesitant and indecisive, ignored demands to mobilize the Republic Navy and attempted to communicate with the Duinuogwuin. To everyone's surprise, the Duinuogwuin were revealed to be intelligent and inherently peaceful. Supreme Chancellor Fillorean and the Duinuogwuin philosopher Borz'Mat'oh negotiated a treaty, and later even cooperated to found Coruscant's first university.",
@@ -930,7 +930,7 @@ export const holonet = [
     {
         "name": "The Hutt Cataclysms",
         "tags": ["history"],
-        "year": "",
+        "year": "11,000 BTC",
         "era": "Colonial Period",
         "location": "Hutt Space",
         "description": "Since its victories against the forces of the Tion Cluster, the Hutt Empire had continued to expand its influence. It now controlled dozens of systems, and the Hutt criminal enterprises extended even into Republic space. But the greed of the Hutts was insatiable, and their long life spans meant grudges could be carried for centuries. Rivalries became open hostilities, until their entire empire was embroiled in the 'Hutt Cataclysms,' a series of conflicts that saw devastating weapons unleashed on Hutt-controlled worlds. When the cataclysms ended, the Hutt homeworld of Varl and hundreds of Hutt colonies had been rendered lifeless. Seeking a new homeworld, the Hutts began relocating to the planet Evocar, slowly buying parcels of land from the Evocii people. Eventually, the Hutts owned the entire planet, which would later be called Nal Hutta--or more often, simply 'Hutta,' the 'Glorious Jewel.'",
@@ -939,7 +939,7 @@ export const holonet = [
     {
         "name": "The Pius Dea Crusades",
         "tags": ["history"],
-        "year": "",
+        "year": "8,300 BTC",
         "era": "Colonial Period",
         "location": "The Galaxy",
         "description": "The Republic had been established on principles of free speech and tolerance for all sentient beings. Unfortunately, these principles also allowed the growth of fringe groups. During the term of Supreme Chancellor Pers'lya, a fanatical pro-human religious sect calling itself 'Pius Dea' emerged. Many dismissed Pius Dea as just another cult, but the group's intentions were much more sinister. Through political maneuvering, the members conspired to have Chancellor Pers'lya impeached and their own man, Senator Contispex, put in his place. Through Supreme Chancellor Contispex, Pius Dea exploited tensions within the fracturing Hutt Empire after the Hutt Cataclysms. Eventually Contispex sanctioned an invasion of Hutt Space, beginning the Pius Dea Crusades. Over the next thousand years, Contispex's descendants--biological and ideological--would inherit his position, continuing to wage war against various alien factions until growing unrest brought Pius Dea's rule to an end. A new Chancellor was elected, free of Pius Dea's influence, and the Pius Dea 'Supreme Temple' was destroyed... but the tensions created between the Core Worlds and the Outer Rim persisted for millenia to come.",
@@ -948,7 +948,7 @@ export const holonet = [
     {
         "name": "Chancellor Blotus' Peace",
         "tags": ["history"],
-        "year": "",
+        "year": "7,300 BTC",
         "era": "Colonial Period",
         "location": "The Galaxy",
         "description": "After the Pius Dea Crusades, the Republic stagnated, forced to rebuild alliances Pius Dea had damaged. However, during the Rianitus Period, the Republic began to enjoy prosperity again under a new Supreme Chancellor, Blotus the Hutt. Blotus had been the administrator of a network of mining worlds that split from the remnants of the former Hutt Empire. He and his worlds applied for Republic membership, and although tensions between Hutts and the Republic remained, Blotus proved both competent and popular in the Galactic Senate. He was eventually elected Supreme Chancellor by an overwhelming majority, and his position was solidified when his tax breaks for independent traders brought Coruscant into an economic boom and improved trade throughout the Core Worlds. Blotus served a 275-year term and died peacefully in his sleep at the age of 912. His rule would be remembered with affection for centuries; even today, his favorite chair in the Senate tower's lounge is traditionally left empty.",
@@ -957,7 +957,7 @@ export const holonet = [
     {
         "name": "The Birth of the Mandalorians",
         "tags": ["history"],
-        "year": "",
+        "year": "7,000 BTC",
         "era": "Colonial Period",
         "location": "Outer Rim Territories",
         "description": "The culture of the gray-skinned Taung species had always been defined by conflict, even before their days battling the Battalions of Zhell on Coruscant. For millennia, striking out from the world they called Mandalore, the Taung explored and conquered new worlds, seeking new opponents to test themselves against. Over time their philosophy of battle grew and changed, and a new cadre of elite warriors emerged. Known as the Mandalorian Crusaders, these warriors were honed by years of battle and guided by a strict code of honor. Wild stories began to spread throughout the Outer Rim of soldiers who could disappear into forests, face terrifying beasts without a trace of fear or even capture an entire planet in a day. These tales were the first time the name 'Mandalorian' became widely known. Although the Taung themselves went into decline and eventually disappeared, they left behind followers trained as they were. Ever after, the Mandalorians were a people to be respected, and feared.",
@@ -966,7 +966,7 @@ export const holonet = [
     {
         "name": "The Great Schism",
         "tags": ["history"],
-        "year": "",
+        "year": "3,350 BTC",
         "era": "Colonial Period",
         "location": "The Core Worlds",
         "description": "The Jedi Order had already faced one great schism in its history, against the fallen Xendor and his Legions of Lettow. Although Xendor had been gone for centuries, there were uneasy stirrings in the order's ranks. A group of Jedi had learned to use the Force to shape living beings, twisting them into horrific monsters. These Dark Jedi were swiftly exiled, but they retaliated by raising an army of their monstrous creations and unleashing them against the rest of the order. The Jedi fought back, finally driving the Dark Jedi to a last stand on the planet Corbos. Victory would not have been certain even then, but the Dark Jedi had begun to turn against one another. Without a united front, they were overwhelmed and scattered. Although the Jedi cheered their victory, it was later discovered that many of the Dark Jedi had fled Corbos, leaving no trail for anyone to follow.",
@@ -975,7 +975,7 @@ export const holonet = [
     {
         "name": "The Birth of the Sith",
         "tags": ["history"],
-        "year": "",
+        "year": "3,360 BTC",
         "era": "Colonial Period",
         "location": "The Seat of the Empire",
         "description": "Exiled for horrific dark side experiments, a group of Dark Jedi made a last stand against the Jedi Order on Corbos, where they were ultimately defeated. The survivors fled beyond the borders of Republic space and, seeking a refuge, they discovered the planet Korriban--home to the red-skinned Sith species. The Sith looked on the Dark Jedi's Force abilities with awe, and worshipped them as gods. Led by the fabled warrior and tactician Ajunta Pall, the Dark Jedi began forging the Sith into a glorious civilization, built on the principles they had established after breaking with the Jedi Order. They ordered the construction of great monuments on Korriban--vast cities that did not survive the ages, glorious temples and elaborate tombs. As time passed, the Dark Jedi and the Sith species intermarried, until there were few true purebloods remaining. Eventually, there were only small physical differences between them. There were only the Sith, strong in the dark side of the Force, and their new Sith Empire.",
@@ -984,7 +984,7 @@ export const holonet = [
     {
         "name": "The Unification Wars",
         "tags": ["history"],
-        "year": "",
+        "year": "1,357 BTC",
         "era": "The Great Hyperspace War",
         "location": "The Core Worlds",
         "description": "The Republic had enjoyed a long period of peace following the peace of Chancellor Blotus, but the Koros system was rapidly becoming a problem. Although the planet Koros Major was stable, growing wealthy on carbonite exports, the other six worlds of the system were poor and increasingly lawless. The task of uniting the Koros system was accepted by a noble famed for her military achievements. Empress Teta was the heir to Koros Major and was determined that the rest of the Koros system would share its prosperity. To that end, Teta began the Unification Wars, hoping to bring the entire system under her rule. She was ultimately successful, though she had to fight a long and bloody campaign to conquer the planet Kirrek. Empress Teta would become known as one of the Republic's boldest commanders, and her warriors were fanatical in her name. The Koros system was eventually renamed after her.",
@@ -993,7 +993,7 @@ export const holonet = [
     {
         "name": "The Death of Marka Ragnos",
         "tags": ["history"],
-        "year": "",
+        "year": "1,347.0 BTC",
         "era": "The Great Hyperspace War",
         "location": "Korriban",
         "description": "As the Sith Empire grew in power, few Sith inspired such fear as Marka Ragnos, a tyrant who ruled for a century. His death created a power vacuum, leaving the Sith Lords Ludo Kressh and Naga Sadow vying for supremacy. During Marka Ragnos's funeral on Korriban, Sadow and Kressh fought a duel, each claiming he was more fit to be Dark Lord of the Sith--the then-unique title of the Empire's ultimate ruler. But the spirit of Ragnos himself appeared, claiming a golden age of the Sith was coming. Moments later, the funeral assembly was alerted: A Republic ship had been captured. The ship belonged to two hyperspace explorers, the siblings Gav and Jori Daragon, who had stumbled on Korriban. As the Sith Council debated the Daragons' fate, Naga Sadow saw opportunity. The hyperspace routes leading to the Republic had been lost; the Daragons were his chance to rediscover them.",
@@ -1002,7 +1002,7 @@ export const holonet = [
     {
         "name": "The Trial of the Daragons",
         "tags": ["history"],
-        "year": "",
+        "year": "1,347.1",
         "era": "The Great Hyperspace War",
         "location": "Korriban",
         "description": "For years, the Sith Lord Naga Sadow had been arguing unsuccessfully that the Sith Empire needed to expand. His chance came when Gav and Jori Daragon, two hyperspace explorers, accidentally discovered Korriban. With the Daragons sentenced to death, Sadow helped them escape, planning to use them to rediscover the hyperspace routes to the Republic. He then claimed to the Sith Council that Republic agents had freed the prisoners. Surely invasion was imminent? Naga Sadow's rival, Ludo Kressh, grew suspicious. As Sadow began to train Gav Daragon as his protege, Kressh raised a force against Sadow, hoping to expose his treachery. But Sadow crushed Kressh's armies and declared himself Dark Lord of the Sith. In the confusion of the battle, Jori Daragon fled back to the Republic, not realizing her ship carried a homing beacon for the Sith to follow.",
@@ -1011,10 +1011,82 @@ export const holonet = [
     {
         "name": "The Great Hyperspace War Begins",
         "tags": ["history"],
-        "year": "",
+        "year": "1,347.2",
         "era": "The Great Hyperspace War",
         "location": "The Galaxy",
         "description": "The Sith had never forgotten their first exile from Republic space. With a trail unwittingly laid by the hyperspace explorer Jori Daragon, Sith Lord Naga Sadow saw a chance for revenge and to expand the borders of the Sith Empire. He had tricked the Sith Council into believing the Republic was about to attack and united several Sith factions into a massive invasion fleet. Meanwhile, Jori Daragon had done her best to warn the Republic of an impending Sith invasion, but only the warlord Empress Teta believed her. Teta was still gathering her armies when Sadow's entire fleet arrived in the Koros system and opened fire. Jedi and Republic forces rallied quickly, but strengthened by Sith sorcery, Sadow's attacks were unpredictable and devastating. The conflict quickly spread throughout the galaxy, until even Coruscant was threatened. The Great Hyperspace War became the first conflict on a truly galactic scale.",
+        "image": ""
+    },
+    {
+        "name": "The Battle of Primus Goluud",
+        "tags": ["history"],
+        "year": "1,347.3",
+        "era": "The Great Hyperspace War",
+        "location": "The Core Worlds",
+        "description": "Toward the end of the Great Hyperspace War, besieged on all sides by the forces of Naga Sadow's Sith Empire, the Republic prepared for a last, desperate stand at the red giant Primus Goluud. Sadow's fleet clashed with the might of the Republic Navy, while Sith forces fought the Jedi on the surface of Coruscant itself. Gav Daragon, who had been fooled into becoming Naga Sadow's servant, led the assault on his homeworld, Koros Major. When one of his friends was killed, Gav realized Sadow had been manipulating him, and defected to the Republic. Alongside Empress Teta's forces, he joined the battle at Primus Goluud. Trapped, Sadow used a superweapon to explode the red giant. Sadow's forces escaped into hyperspace before the shockwave hit; Gav Daragon was killed, but not before he had transmitted Korriban's coordinates to Empress Teta and the Republic fleet.",
+        "image": ""
+    },
+    {
+        "name": "The Great Hyperspace War Ends",
+        "tags": ["history"],
+        "year": "1,347.4",
+        "era": "The Great Hyperspace War",
+        "location": "The Galaxy",
+        "description": "Naga Sadow's attempt to conquer the Republic in the Great Hyperspace War had failed. After the battle at Primus Goluud, he led the limping Sith fleet back to Korriban, only to find an old enemy waiting for him. His rival Ludo Kressh, believed dead, now commanded a fleet of his own. The two Sith Lords fought furiously, only to be interrupted by the Republic fleet, which had pursued Sadow through hyperspace. The Republic began to attack the Sith forces, quickly gaining the upper hand. Sadow took desperate measures. He forced one of his captains to ram Kressh's flagship, killing his rival once and for all. Left with only a single vessel and a crew of slaves, Sadow escaped the battle and fled to the remote jungle world of Yavin Four. Sadow then placed himself in a long stasis, still dreaming of a Sith golden age.",
+        "image": ""
+    },
+    {
+        "name": "The Rise of the Sith Emperor",
+        "tags": ["history"],
+        "year": "1,347.5",
+        "era": "The Great Hyperspace War",
+        "location": "The Seat of the Empire",
+        "description": "With the end of the Great Hyperspace War, the Republic and the Jedi began to purge the remnants of the Sith Empire--obliterating its power centers, destroying its dark teachings and leaving its people without a clear leader. The Supreme Chancellor and his allies argued that this was not a battle against the Empire's citizenry, but a necessary step to free the Sith from corruption. The survivors among the Sith--and they were few, as famine, disease and infighting claimed those who did not continue to face down the Republic--saw it as a deathblow to their culture. But a savior arose: The man who would one day become Emperor of the Sith had weathered the war with a number of trusted followers. No record of the Sith Emperor's original identity has survived, but he was quickly accepted as the leader of the almost-shattered Sith Empire. Although the Republic had temporarily retreated from the Horuset system, the Sith Emperor knew that Korriban would not be safe for long. While the few survivors emerged from their shelters in the deserts and shattered tombs, the Sith Emperor began to devise a plan, centuries in the execution, that would ensure the survival of the Sith and the eventual annihilation of the Republic.",
+        "image": ""
+    },
+    {
+        "name": "The Long Exile",
+        "tags": ["history"],
+        "year": "1,346",
+        "era": "The Great Hyperspace War",
+        "location": "The Seat of the Empire",
+        "description": "Led by their new Emperor, the survivors of the Sith Empire had left Korriban aboard a small fleet following the Great Hyperspace War. There was no place in known space they could hide from the Republic--and so, undaunted, they fled into the unknown regions of the galaxy. Where the old Sith Empire had often been divided by rivalries, the survivors were now united, both by their desire to find a new home and by their anger at the Republic that had sought to destroy them. For decades, the fleet wandered among the stars--until one day, a scout vessel returned to the armada with incredible news. Either by luck or by the esoteric designs of the often-silent Emperor, the Sith had rediscovered a long-lost outpost world: the jungle planet of Dromund Kaas. Absent from any star charts, Dromund Kaas presented a perfect refuge where the Sith Empire could rebuild and plan its revenge.",
+        "image": ""
+    },
+    {
+        "name": "The Discovery of Dromund Kaas",
+        "tags": ["history"],
+        "year": "1326",
+        "era": "The Great Hyperspace War",
+        "location": "Dromund Kaas",
+        "description": "Once an outpost of the ancient Sith Empire, the planet Dromund Kaas now presented a refuge to the Empire's weary survivors after their long exile from Korriban. Upon landing, the Emperor addressed the populace, promising them that from this world, a new civilization would grow to eventually crush the Republic. The challenges of colonizing such a wild planet were soon evident. Dromund Kaas's jungles were untamed, full of dangerous predators. To ensure order and discipline, military service became mandatory for non-Force sensitives. Imperial citizens took pride in this duty, knowing they were defending the future of their people. Before withdrawing into isolation, the Emperor established a Dark Council to oversee the Empire and control the hierarchy of the Sith. He is said to have conducted many dark side rituals and experiments that affected the planet itself, leaving Dromund Kaas storm-wracked to this day.",
+        "image": ""
+    },
+    {
+        "name": "The Discovery of Ryll",
+        "tags": ["history"],
+        "year": "1302",
+        "era": "The Great Hyperspace War",
+        "location": "Outer Rim Territories",
+        "description": "In the years after the Great Hyperspace War, a discovery was made on the Twi'lek homeworld of Ryloth--the spice called ryll. Ryll was a component in several medicines, but was also a powerful stimulant. Sensing opportunity, Neimoidian traders quickly gained a monopoly on ryll and were keen to introduce it to other species. One of these species was the Porporites, a peaceful people who had recently made first contact with the Republic. But in contrast to other species, ryll drove the Porporites into homicidal fury. Eventually, the entire species was composed of raging maniacs who began attacking other worlds. Alarmed, the Republic asked the Jedi to take action against the Porporites, but the intervention was unsuccessful. The Neimoidians, fearing for their livelihoods, decided more desperate measures might be necessary and turned to Gank mercenaries for help.",
+        "image": ""
+    },
+    {
+        "name": "The Gank Massacres",
+        "tags": ["history"],
+        "year": "1301",
+        "era": "The Great Hyperspace War",
+        "location": "Outer Rim Territories",
+        "description": "Addicted to the spice ryll--which drove them into a murderous frenzy--the Porporite species had become a threat to the galaxy. The Neimoidians had a monopoly on ryll and, terrified of the coming Porporite swarm, turned to the Ganks to stop the Porporites quickly. The Ganks were mysterious, cybernetic mercenaries that often worked for the Hutts. With the Ganks' reputation as cold-blooded killers, the Neimoidians were confident they could handle the Porporite armies. But the Ganks' solution was to eliminate the entire Porporites species, and they hunted the Porporites to extinction. Encouraged by this 'success,' the Ganks began wiping out other species, quickly becoming a far greater threat than the Porporites. The Jedi took up arms against them, but Supreme Chancellor Vocatara was forced to commission the first juggernaut droids to end the Gank menace for good.",
+        "image": ""
+    },
+    {
+        "name": "The Quarren-Mon Calamari War",
+        "tags": ["history"],
+        "year": "1225",
+        "era": "The Great Hyperspace War",
+        "location": "Outer Rim Territories",
+        "description": "Although the Quarren and Mon Calamari both evolved on the watery world of Dac, it was millennia before the two species encountered each other. Unfortunately, initial contact went badly and the Quarren declared war. The Mon Calamari had a technological and intellectual advantage, but the Quarren repeatedly refused any overtures of peace. Eventually, the Quarren were driven to near-extinction. But the Mon Calamari had no wish to exterminate their cousins. In a bold social experiment, the Mon Calamari took young Quarren into their society and taught them civilization, mathematics and the sciences. When these young Quarren returned to their people, they had nothing in common with their primitive fellows. Within twenty years, they had become the dominant force in Quarren society, and eventually sought peace with the Mon Calamari.",
         "image": ""
     },
 ]
