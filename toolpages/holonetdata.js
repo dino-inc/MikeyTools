@@ -1261,7 +1261,7 @@ export const holonet = [
         "image": ""
     },
     {
-        "name": "The Scouring of Ossus",
+        "name": "The Sacking of Ossus",
         "tags": ["history"],
         "year": "343.2 BTC",
         "era": "The Exar Kun Crisis",
