@@ -1056,7 +1056,7 @@ export const holonet = [
     {
         "name": "The Discovery of Dromund Kaas",
         "tags": ["history"],
-        "year": "1326 BTC",
+        "year": "1,326 BTC",
         "era": "The Great Hyperspace War",
         "location": "Dromund Kaas",
         "description": "Once an outpost of the ancient Sith Empire, the planet Dromund Kaas now presented a refuge to the Empire's weary survivors after their long exile from Korriban. Upon landing, the Emperor addressed the populace, promising them that from this world, a new civilization would grow to eventually crush the Republic. The challenges of colonizing such a wild planet were soon evident. Dromund Kaas's jungles were untamed, full of dangerous predators. To ensure order and discipline, military service became mandatory for non-Force sensitives. Imperial citizens took pride in this duty, knowing they were defending the future of their people. Before withdrawing into isolation, the Emperor established a Dark Council to oversee the Empire and control the hierarchy of the Sith. He is said to have conducted many dark side rituals and experiments that affected the planet itself, leaving Dromund Kaas storm-wracked to this day.",
@@ -1065,7 +1065,7 @@ export const holonet = [
     {
         "name": "The Discovery of Ryll",
         "tags": ["history"],
-        "year": "1302 BTC",
+        "year": "1,302 BTC",
         "era": "The Great Hyperspace War",
         "location": "Outer Rim Territories",
         "description": "In the years after the Great Hyperspace War, a discovery was made on the Twi'lek homeworld of Ryloth--the spice called ryll. Ryll was a component in several medicines, but was also a powerful stimulant. Sensing opportunity, Neimoidian traders quickly gained a monopoly on ryll and were keen to introduce it to other species. One of these species was the Porporites, a peaceful people who had recently made first contact with the Republic. But in contrast to other species, ryll drove the Porporites into homicidal fury. Eventually, the entire species was composed of raging maniacs who began attacking other worlds. Alarmed, the Republic asked the Jedi to take action against the Porporites, but the intervention was unsuccessful. The Neimoidians, fearing for their livelihoods, decided more desperate measures might be necessary and turned to Gank mercenaries for help.",
@@ -1074,7 +1074,7 @@ export const holonet = [
     {
         "name": "The Gank Massacres",
         "tags": ["history"],
-        "year": "1301 BTC",
+        "year": "1,301 BTC",
         "era": "The Great Hyperspace War",
         "location": "Outer Rim Territories",
         "description": "Addicted to the spice ryll--which drove them into a murderous frenzy--the Porporite species had become a threat to the galaxy. The Neimoidians had a monopoly on ryll and, terrified of the coming Porporite swarm, turned to the Ganks to stop the Porporites quickly. The Ganks were mysterious, cybernetic mercenaries that often worked for the Hutts. With the Ganks' reputation as cold-blooded killers, the Neimoidians were confident they could handle the Porporite armies. But the Ganks' solution was to eliminate the entire Porporites species, and they hunted the Porporites to extinction. Encouraged by this 'success,' the Ganks began wiping out other species, quickly becoming a far greater threat than the Porporites. The Jedi took up arms against them, but Supreme Chancellor Vocatara was forced to commission the first juggernaut droids to end the Gank menace for good.",
@@ -1083,10 +1083,208 @@ export const holonet = [
     {
         "name": "The Quarren-Mon Calamari War",
         "tags": ["history"],
-        "year": "1225 BTC",
+        "year": "1,225 BTC",
         "era": "The Great Hyperspace War",
-        "location": "Outer Rim Territories",
+        "location": "The Mid-Rim",
         "description": "Although the Quarren and Mon Calamari both evolved on the watery world of Dac, it was millennia before the two species encountered each other. Unfortunately, initial contact went badly and the Quarren declared war. The Mon Calamari had a technological and intellectual advantage, but the Quarren repeatedly refused any overtures of peace. Eventually, the Quarren were driven to near-extinction. But the Mon Calamari had no wish to exterminate their cousins. In a bold social experiment, the Mon Calamari took young Quarren into their society and taught them civilization, mathematics and the sciences. When these young Quarren returned to their people, they had nothing in common with their primitive fellows. Within twenty years, they had become the dominant force in Quarren society, and eventually sought peace with the Mon Calamari.",
+        "image": ""
+    },
+    {
+        "name": "The Ascension of Freedon Nadd",
+        "tags": ["history"],
+        "year": "747 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "The Galaxy",
+        "description": "Trained at the Jedi Temple on Ossus centuries after the Great Hyperspace War, Freedon Nadd was a powerful but temperamental Padawan. When denied promotion to the rank of Jedi Knight, the enraged Nadd struck down his Master. He left the Jedi and began to study the powers of the dark side. Although Nadd learned much from a Sith holocron, he craved more. Nadd traveled to Yavin IV where he encountered the Massassi, savage relatives of the Sith who were once servants of Naga Sadow. Nadd defeated them, and the awestruck Massassi took him to Sadow, who rested in a suspended animation chamber. Unaware of the Sith Empire rebuilding itself on Dromund Kaas, Sadow believed Nadd was the acolyte he had been waiting for. But he underestimated Nadd's craving for power, and Nadd soon killed Sadow and left Yavin IV behind. Nadd settled on the distant world of Onderon, becoming a legendary tyrant.",
+        "image": ""
+    },
+    {
+        "name": "The Beast Wars",
+        "tags": ["history"],
+        "year": "745 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Onderon",
+        "description": "The fallen Jedi Freedon Nadd learned well at the feet of Naga Sadow, an ancient Sith Lord. After killing his mentor, Nadd traveled to distant Onderon and established himself in the capital Iziz as a tyrant, twisting the city's culture to a Sith ideal. Nadd would often banish criminals beyond Iziz's walls, intending for them to die in Onderon's dangerous jungles. However, many of these criminals survived and began taming the jungle beasts as mounts. These 'Beast Riders' formed a guerrilla force that eventually went to war against Iziz. Nadd fought them fiercely, but the jungle had honed the Beast Riders into formidable enemies. The civil war continued even after Nadd's eventual death. Nadd was entombed below the city of Iziz, where his influence on Iziz's rulers would be felt for centuries.",
+        "image": ""
+    },
+    {
+        "name": "The Czerka Kashyyyk Expedition",
+        "tags": ["history"],
+        "year": "730 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Kashyyyk",
+        "description": "Czerka Corporation had grown rich on weapons development, experimental research and planetary exploration. Some years before the Great Droid Revolution, Czerka discovered a backwater planet with extraordinary flora and fauna, whose trees grew kilometers high. The planet was known to its natives as Kashyyyk. Czerka was already planning to exploit Kashyyyk's resources when corporate scouts encountered the native Wookiee population. Although physically strong and agile, the Wookiees were forced to fall back before Czerka's superior technology. It didn't take Czerka long to realize that the true wealth of Kashyyyk was the Wookiees themselves. Bringing in its forces and considerable investment power, Czerka established a position on Kashyyyk and set about exporting Wookiee slaves to the highest bidder. They also decided to change the planet's name to something more appealing to investors: Edean.",
+        "image": ""
+    },
+    {
+        "name": "The Droid Rights Movement",
+        "tags": ["history"],
+        "year": "725 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Kashyyyk",
+        "description": "For millennia, droids had filled an important role in Republic society. They were tireless workers, trusted servants and often functioned as diplomatic translators. Battle droids formed a key part of the Republic's military strategy. However, a 'droid rights' movement began to find a voice across the Republic and quickly became popular on Coruscant. The argument was made that since droids had personalities and sentience, owning a droid was tantamount to slavery. The Galactic Senate dismissed the movement as a mere fad, but after millions of appeals to create a Droid Rights Bill, they were forced to address the issue. A surprising number of Senators spoke up in favor of droid rights, while many others dismissed the idea as absurd. The debate would continue until the Great Droid Revolution stopped the droid rights movement in its tracks.",
+        "image": ""
+    },
+    {
+        "name": "The Nevoota Extinction",
+        "tags": ["history"],
+        "year": "700 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Outer Rim Territories",
+        "description": "The Nevoota--a species of insectoid aliens from the Balmorra system--found themselves facing an army of disciplined warriors in distinctive armor. The warriors were Mandalorian Crusaders, testing themselves against the galaxy's deadliest species. However, the Nevoota were a challenge even for the Mandalorians. Possessing superior numbers and utterly disdainful of death, the Nevoota fought a four-year campaign under the cunning warlord Ithcharaka--but finally the Mandalorians hunted the Nevoota to extinction. This conflict had a profound effect on Mandalorian culture. The Mandalorians began to see war itself as an end, not just a means of conquest. Through war, Mandalorian society found its highest expression. When Mandalore the Indomitable eventually rose to power, he led a people who demanded nothing less than the greatest challenges the galaxy could offer.",
+        "image": ""
+    },
+    {
+        "name": "The Droid Revolution",
+        "tags": ["history"],
+        "year": "690 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "The Galaxy",
+        "description": "Debate had been raging in the Republic over the issue of droid rights: Did droids deserve the same treatment as organic beings, and was owning droids tantamount to slavery? This question was rendered moot when a Czerka-built assassin droid, HK-01, went rogue and began reprogramming other droids to rise up against their masters, in what would be called the Droid Revolution. Republic citizens, surrounded by thousands of rogue droids--every model, from protocol to sanitation to battle units--found themselves at the mercy of their former servants. Several planets were subjugated in the name of the droid rebellion, until the signal controlling the droids was traced. Following the signal, a team of Jedi destroyed HK-01, returning the rogue droids to their original programming. The relieved Republic returned to normal, and the issue of droid rights was not raised again.",
+        "image": ""
+    },
+    {
+        "name": "The Rise of the Krath Cult",
+        "tags": ["history"],
+        "year": "348 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "The Core Worlds",
+        "description": "",
+        "image": "As the Jedi know only too well, evil can arise from the most unlikely of sources. In the years after the Droid Revolution, two aristocrats, Satal Keto and his cousin Aleema, came to power in the Empress Teta system. Bored and spoiled, they became interested in the secrets of the Sith. They and their friends formed a Sith cult named Krath. But Satal and Aleema began to crave real power. During a visit to the Galactic Museum on Coruscant, they spotted a book of ancient Sith lore and rituals and decided to steal it. Once they had the book, they realized it was written in a long-forgotten Sith language. But Satal learned of the planet Onderon, once ruled by the Sith Lord Freedon Nadd, and the cousins left to unlock the book's secrets there."
+    },
+    {
+        "name": "Onderon Joins the Republic",
+        "tags": ["history"],
+        "year": "347 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Onderon",
+        "description": "",
+        "image": "Once ruled by the Sith Lord Freedon Nadd, Onderon had gained a dark reputation. When Coruscanti traders discovered the planet and made official contact with the Republic, Master Arca Jeth sent three Jedi, including the brothers Ulic and Cay Qel-Droma, to act as stewards of the planet and bring peace to its people. When the Jedi arrived, Onderon's ruler--Queen Amanoa--begged for the Jedi's help in protecting her people from the warrior Beast Riders, who soon captured her daughter Galia. Upon investigating, the Jedi learned the truth: Galia and the Beast Rider warlord Oron Kira had arranged the abduction together, planning to marry and unite their warring cultures. Queen Amanoa was actually a descendant of Freedon Nadd, strong in the dark side, and the Jedi were among her enemies. The queen's forces battled with those of the Beast Riders and the Jedi. Cay Qel-Droma lost his arm in the fighting, and only the arrival of Arca Jeth--who used battle meditation to turn the battle in the Jedi's favor--saved Onderon. With Queen Amanoa's defeat, Galia and Oron Kira began rebuilding their world."
+    },
+    {
+        "name": "The Naddist Conspiracy",
+        "tags": ["history"],
+        "year": "345.0 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Onderon",
+        "description": "With Queen Amanoa dead, Onderon enjoyed a brief period of peace, but a shadow still hung over the planet. So-called 'Naddist Rebels' began to emerge, a sect that revered the teachings of the Sith Lord Freedon Nadd. Master Arca Jeth and his students sought to cleanse Onderon of Nadd's influence by moving Nadd's sarcophagus to Onderon's moon, Dxun, but they were ambushed by Naddists who stole the sarcophagus. While seeking out the Naddists, Arca Jeth discovered that King Ommin, long thought dead, was being kept alive in a secret facility. Also a follower of Nadd, Ommin joined forces with Nadd's undying spirit and managed to capture Arca Jeth. The king fled to a secret stronghold while Arca Jeth's student, Ulic Qel-Droma, called for Republic reinforcements.",
+        "image": ""
+    },
+    {
+        "name": "The Siege of Iziz",
+        "tags": ["history"],
+        "year": "345.1 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Onderon",
+        "description": "The Jedi had uncovered Freedon Nadd's tomb, but its sarcophagus was stolen by Naddist rebels loyal to the dead Sith Lord's teachings. With Jedi Master Arca Jeth captured, Ulic Qel-Droma called for Republic forces and Onderon's capital, Iziz, was besieged. During the battle, Satal Keto and Aleema, leaders of the Krath Sith cult, arrived on Onderon seeking Sith knowledge. They went before King Ommin, who gave Satal an amulet that would allow him to understand the ancient Sith language. Their audience was interrupted by Ulic Qel-Droma, who sought to rescue his Master Arca Jeth from King Ommin's clutches. Satal and Aleema escaped, only to encounter the spirit of Freedon Nadd himself. Calling them the inheritors of his legacy, Nadd promised that he would lead the Krath to glory. Meanwhile, the Jedi saw Nadd's sarcophagus sealed away on Dxun, locked behind Mandalorian iron.",
+        "image": ""
+    },
+    {
+        "name": "The Rise of Exar Kun",
+        "tags": ["history"],
+        "year": "345.2 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Dxun",
+        "description": "When the Jedi teach of the dangers of pride and overreach, they often speak of Exar Kun. A promising Jedi who trained on Dantooine, Exar Kun was known for his talent and his temper. He was intensely curious about all matters of the Force, and disagreed with his Master, Vodo-Siosk Baas, over the dangers of the dark side. Exar Kun believed he was strong enough to study the dark side without being corrupted by it. Denied access to dark side teachings, however, Exar Kun left the Jedi in disgust. When he heard the Jedi had sealed the Sith Lord Freedon Nadd's sarcophagus away on the jungle moon of Dxun, he went to Dxun to seek the tomb. Breaking through the tomb's seals, Exar Kun was confronted by the spirit of Freedon Nadd. Impressed by his power, Nadd told Exar Kun to journey to Yavin IV.",
+        "image": ""
+    },
+    {
+        "name": "The Coup of Empress Teta",
+        "tags": ["history"],
+        "year": "344.0 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Empress Teta",
+        "description": "After obtaining many Sith artifacts from Onderon, the Krath cult had only grown in power. Its leaders, Satal Keto and his cousin Aleema, decided that the time was right to seize their destiny. They attempted to launch a coup, attacking their aristocratic parents and claiming the Empress Teta system for themselves. The people of Empress Teta soon rebelled against the Sith regime. Alerted to the danger, the Jedi Ulic Qel-Droma and his lover, the wise and gentle Nomi, traveled to the system at the head of a Republic fleet. But the Krath cultists were fanatics; a Krath suicide attack damaged the Republic flagship, leaving Ulic Qel-Droma badly injured, and the fleet was forced to withdraw.",
+        "image": ""
+    },
+    {
+        "name": "The Conclave at Deneba",
+        "tags": ["history"],
+        "year": "344.1 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Deneba",
+        "description": "The Sith Krath cult had become a menace, attempting to seize the Empress Teta system and repelling a Republic fleet. Knowing the shadow of the dark side lay over the Krath, the Jedi called a conclave on the planet Deneba to discuss their next course of action. Ulic Qel-Droma suggested a risky plan: infiltrating the Krath from within. Many disagreed, believing such a course was reckless and dangerous. During the debate, the gathering was ambushed by Krath assassins. The Jedi rallied and managed to fight the assassins off, but among the casualties was one of the Jedi's wisest Masters. Arca Jeth was dead. Ulic Qel-Droma, Arca Jeth's student, was devastated by his death. Full of grief and hatred for the Krath, Ulic swore to destroy the cultists, not seeing that his desire for revenge was leading him down a dangerous path.",
+        "image": ""
+    },
+    {
+        "name": "The Corruption of Ulic Qel-Droma",
+        "tags": ["history"],
+        "year": "344.2 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Empress Teta",
+        "description": "Ulic Qel-Droma had seen his beloved Master Arca Jeth cut down by the Sith Krath cult. Grieving and angry, he ignored the advice of his brother Cay and resolved to destroy the Krath from within. Posing as a fallen Jedi, Ulic made his way to the Empress Teta system. After foiling an assassination attempt on Aleema, one of the Krath founders, Ulic was taken into the cult's ranks. However, the second founder, Satal Keto, remained suspicious of Ulic. Over months, Ulic became immersed in the Krath teachings, even becoming Aleema's lover. Eventually, the concerned Jedi sent a team to bring Ulic home. During the rescue attempt, Ulic slew Satal in anger, blaming him for his Master's death. Although the Jedi were able to escape, the now truly fallen Ulic chose to remain with the Krath, taking Satal's place as the cult's leader .",
+        "image": ""
+    },
+    {
+        "name": "The Ascension of Exar Kun",
+        "tags": ["history"],
+        "year": "344.3 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Yavin IV",
+        "description": "On the advice of the spirit of the Sith Lord Freedon Nadd, the fallen Jedi Exar Kun traveled to the jungle moon of Yavin IV and encountered the Massassi--the primitive servants of the dead Sith Naga Sadow. The Massassi took Exar Kun prisoner and prepared to sacrifice him to a monstrous wyrm. Exar Kun was forced to use his growing connection to the dark side to free himself. Freedon Nadd appeared once more, congratulating his student. But Exar Kun had tired of Nadd's meddling and used his newfound strength to obliterate Nadd's spirit. Cowed, the Massassi bowed before Exar Kun as his slaves. Exar Kun's power grew. He ordered the Massassi to build immense temples and to seek out Naga Sadow's lost battleship. He also used Sith alchemy to create horrific monsters, including terentateks that hungered for the blood of Force users. But powerful as he was, he could sense a distant rival: Ulic Qel-Droma.",
+        "image": ""
+    },
+    {
+        "name": "The Birth of the Brotherhood of the Sith",
+        "tags": ["history"],
+        "year": "344.4 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "The Galaxy",
+        "description": "The Jedi still hoped to save their fallen brother Ulic Qel-Droma, who had become leader of the evil Krath cult. Ulic's brother Cay led a second rescue mission to Empress Teta's capital city of Cinnagar to bring him home. But again Ulic resisted, unleashing his vast armies until the Jedi were forced to withdraw. It was then that the Dark Jedi Exar Kun arrived at Cinnagar's royal palace. From Yavin IV, Exar Kun had sensed Ulic's growing dark power and saw him as a threat. The two men clashed in a ferocious duel until the spirit of Marka Ragnos, a long-dead Sith Lord, appeared to them. Ragnos commanded Ulic Qel-Droma and Exar Kun to join forces; together, they could bring about the long-prophesied Golden Age of the Sith. With Exar Kun as Dark Lord and Ulic as his apprentice, the Brotherhood of the Sith was born.",
+        "image": ""
+    },
+    {
+        "name": "The Brotherhood-Mandalorian Alliance",
+        "tags": ["history"],
+        "year": "344.5 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "The Galaxy",
+        "description": "United as the Brotherhood of the Sith, Exar Kun and Ulic Qel-Droma set about gathering their strength. Exar Kun sought converts to his new Sith Order among the Jedi on Ossus, killing Master Odan-Urr to claim a powerful Sith holocron. Focused on strategy, Ulic contacted the Mandalorians, whose leader, Mandalore the Indomitable, had challenged the Krath cult's rule of the Empress Teta system. Ulic defeated Mandalore in a duel, and the Mandalorians rallied under his banner. Exar Kun also gave Ulic a terrible weapon--Centerpoint Station, which was capable of drawing out the life essence of an entire army. Ulic tested Centerpoint Station against Republic troops on Raxus Prime, killing hundreds. With Centerpoint Station, Mandalorian Crusaders, the Massassi warriors and Exar Kun's own horrific alchemical creations, the Brotherhood of the Sith was finally ready to challenge the Republic.",
+        "image": ""
+    },
+    {
+        "name": "The Brotherhood Invade the Core Worlds",
+        "tags": ["history"],
+        "year": "343.0 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "The Core Worlds",
+        "description": "The Brotherhood of the Sith was ready to strike. The fallen Jedi Ulic Qel-Droma, the Sith sorceress Aleema and Mandalore gathered their armies to begin their conquest of the Core Worlds, starting with Corellia. But they underestimated Corellia's Jedi defenders. The Brotherhood's forces were repelled, and Ulic was captured. Ulic was taken to the Senate tower on Coruscant to stand trial. But the Jedi Master Vodo Siosk-Baas sensed that Ulic hadn't acted alone, that Siosk-Baas's old student, Exar Kun, was involved. During the trial, Exar Kun himself marched into the Senate tower, having infiltrated their defenses. He subdued the assembly with his Force abilities and humiliated the Supreme Chancellor. Vodo Siosk-Baas then entered, challenging his former pupil. Exar Kun's unusual double-bladed lightsaber and dark powers prevailed, however, and Siosk-Baas was killed. With cover by the Mandalorians Crusaders, Exar Kun and Ulic then left Coruscant and returned to Yavin IV to prepare for the next battle.",
+        "image": ""
+    },
+    {
+        "name": "The Destruction of the Cron Stars",
+        "tags": ["history"],
+        "year": "343.1 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "The Core Worlds",
+        "description": "Treachery is the way of the Sith. Ulic Qel-Droma's capture on Coruscant had been engineered partly by his ally, the Sith sorceress Aleema Keto: she had ordered Mandalore to withdraw their forces at a critical moment. However, after Mandalore helped to rescue Ulic from Coruscant, he secretly told Ulic everything. Aleema's fate was sealed. Feigning ignorance, Ulic continued with the Sith Brotherhood's plans. Using Naga Sadow's ancient battleship, the Corsair, they planned to lure the Republic fleet into the Cron Cluster and use the Corsair to destroy its suns, annihilating the fleet. Aleema took the Corsair into the Cron Cluster and activated the superweapon, but Ulic had deliberately not warned her of the consequences. The blast annihilated the entire Cron Cluster in a supernova, sending a shockwave toward the Jedi world of Ossus. The Corsair itself was consumed, taking Aleema with it.",
+        "image": ""
+    },
+    {
+        "name": "The Scouring of Ossus",
+        "tags": ["history"],
+        "year": "343.2 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Ossus",
+        "description": "The Brotherhood of the Sith had annihilated the Cron Cluster in a supernova, sending a massive shockwave towards the planet Ossus. Home to the Jedi for countless generations, Ossus safeguarded vast libraries and storehouses of artifacts. As the Jedi scrambled to save their treasures from the coming cataclysm, the Sith Brotherhood leaders Exar Kun and Ulic Qel-Droma arrived to raid the planet. Exar Kun managed to claim a number of notable Jedi artifacts. Meanwhile, Ulic fought against the Republic and Jedi forces only to be challenged by his own brother, Cay. The two brothers fought until Ulic finally struck Cay down. The shock of his brother's death left Ulic stunned with horror. Ulic wept at what he had become.",
+        "image": ""
+    },
+    {
+        "name": "The Battle of Yavin IV",
+        "tags": ["history"],
+        "year": "343.3 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "Yavin IV",
+        "description": "Grieving for his brother and abandoned by the Brotherhood of the Sith, the fallen Jedi Ulic Qel-Droma finally returned to the light. He joined the Republic forces and led them to Yavin IV, stronghold of the Dark Lord Exar Kun. The Republic fleet bombarded the moon's surface, leveling Exar Kun's temples and setting the jungles aflame. But Exar Kun had sensed the approach of the Republic forces and laid preparations. Summoning his loyal Massassi warriors, he performed a dreadful ritual that drained them of their life essence. Exar Kun became a spirit of pure darkness. The Jedi in the fleet sensed Exar Kun's actions. Led by Ulic, they created a 'wall of light' through the Force. Exar Kun found himself trapped within the temples of Yavin Four for eternity, screaming with rage and helpless to escape.",
+        "image": ""
+    },
+    {
+        "name": "The Scouring of the Brotherhood of the Sith",
+        "tags": ["history"],
+        "year": "342 BTC",
+        "era": "The Exar Kun Crisis",
+        "location": "The Galaxy",
+        "description": "The death of Exar Kun and Ulic Qel-Droma's redemption had scattered the cultists of the Brotherhood of the Sith--but the Mandalorian armies that also served would not give up the fight. The Republic forced the Mandalorians to the Onderonian moon Dxun, where Mandalore the Indomitable was devoured by wild beasts. The Empress Teta system was reclaimed next, and the last vestiges of the Sith cult fled to the Outer Rim Territories, leaderless. The Jedi Order had suffered many losses in the Great Sith War, but none was felt more keenly than the destruction of Ossus, which had been the order's home for generations. The Jedi had lost their libraries and precious artifacts and needed to rebuild. After much debate, the Jedi Order moved its headquarters to the temple on Coruscant.",
         "image": ""
     },
 ]
