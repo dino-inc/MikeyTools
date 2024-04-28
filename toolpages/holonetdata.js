@@ -1351,11 +1351,11 @@ export const holonet = [
         "image": ""
     },
     {
-        "name": "The Cathar Genocide",
+        "name": "The Covenant Murders",
         "tags": ["history"],
-        "year": "321 BTC",
+        "year": "320 BTC",
         "era": "The Dark Age",
-        "location": "The Galaxy",
+        "location": "Seat of the Empire",
         "description": "For years, the Jedi Covenant had existed secretly within the Jedi Order, dedicated to finding and destroying the next Sith threat before it began. Then, during a mission with their Padawans, the Covenant seers had a terrifying vision: a Sith Lord in red destroying the galaxy. The Covenant realized their Padawans were wearing red environmental suits, exactly like the Sith Lord in their vision. The Jedi Covenant made a solemn decision. To ensure the galaxy's safety, their Padawans had to be killed before the prophecy was fulfilled. The terrible deed was done on Taris during the Padawans' knighting ceremony. Only the Padawan Zayne Carrick, who was late to the ceremony, survived. Framed for the murder of his fellow Padawans, Carrick went on the run, pursued by the Covenant who feared he would become the next Sith Lord.",
         "image": ""
     },
