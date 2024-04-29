@@ -1063,6 +1063,15 @@ export const holonet = [
         "image": ""
     },
     {
+        "name": "The Vaiken Reformations",
+        "tags": ["history"],
+        "year": "1,322 BTC",
+        "era": "The Great Hyperspace War",
+        "location": "Seat of the Empire",
+        "description": "Upon arriving on Dromund Kaas decades later, the Emperor revealed his vision to build a new civilization of unrivaled efficiency. While the Emperor withdrew into isolation, the logistics of this reformation was left to the newly formed Dark Council and to loyal Imperial leaders like Odile Vaiken. After being promoted to Moff, Vaiken developed the Imperial military training regimen that remains to this day. With his army well-trained, he personally slew a rabid terentatek on the site where the Imperial citadel stands today. Dividing his troops between engineering, mining, and manufacturing, he laid the ground work for an ambitious plan - the creation of the Imperial armada. By his own estimates, the task would take centuries; Vaikan knew he would never see even a fraction of his plan's success. It was this act which earned Vaiken the honor of being the first Grand Moff recognized in the new Imperial military. The Grand Moff was eventually killed during a campaign to conquer an alien system in deep space. Though Vaiken was lost all those centuries ago, his plan and his name lived on to inspire countless generations who marched under the Imperial banner. Vaiken's story represents the surprising loyalty the Imperial citizens show to an Empire in which they will always be subservient to the Sith.",
+        "image": ""
+    },
+    {
         "name": "The Discovery of Ryll",
         "tags": ["history"],
         "year": "1,302 BTC",
@@ -1140,7 +1149,7 @@ export const holonet = [
         "year": "690 BTC",
         "era": "The Great Hyperspace War",
         "location": "The Galaxy",
-        "description": "Debate had been raging in the Republic over the issue of droid rights: Did droids deserve the same treatment as organic beings, and was owning droids tantamount to slavery? This question was rendered moot when a Czerka-built assassin droid, HK-01, went rogue and began reprogramming other droids to rise up against their masters, in what would be called the Droid Revolution. Republic citizens, surrounded by thousands of rogue droids--every model, from protocol to sanitation to battle units--found themselves at the mercy of their former servants. Several planets were subjugated in the name of the droid rebellion, until the signal controlling the droids was traced. Following the signal, a team of Jedi destroyed HK-01, returning the rogue droids to their original programming. The relieved Republic returned to normal, and the issue of droid rights was not raised again.",
+        "description": "Debate had been raging in the Republic over the issue of droid rights: Did droids deserve the same treatment as organic beings, and was owning droids tantamount to slavery? This question was rendered moot when a Czerka-built assassin droid, HK-01, went rogue and began reprogramming other droids to rise up against their masters, in what would be called the Droid Revolution. Republic citizens, surrounded by thousands of rogue droids--every model, from protocol to sanitation to battle units--found themselves at the mercy of their former servants. Several planets were subjugated in the name of the droid rebellion, until the signal controlling the droids was traced. Following the signal, a team of Jedi destroyed HK-01, returning the rogue droids to their original programming. The relieved Republic returned to normal, and regular memory wipes became mandatory.",
         "image": ""
     },
     {
@@ -1344,7 +1353,7 @@ export const holonet = [
     {
         "name": "The Cathar Genocide",
         "tags": ["history"],
-        "year": "321 BTC",
+        "year": "320 BTC",
         "era": "The Dark Age",
         "location": "Outer Rim Territories",
         "description": "The Mandalorians had returned to take revenge on the Republic and sate their lust for war and conquest. With the Jedi Council refusing to lend military aid--believing the true threat was still unclear, and the risk of conflict-hardened Jedi falling to the darkness was high--the Republic was unable to prevent the Mandalorians from devastating the planet Cathar. Millions died. This was the last straw for several young Jedi, who disobeyed the Council to join the war effort. The most notable was Revan, a charismatic and skilled leader who rose to the rank of general. Revan's friend Alek, later known as Malak, distinguished himself on the front lines. Revan's tactics and Malak's unyielding strength turned the tide, helping the Republic forces to victory at Althir and Jaga's Cluster. But the Council did not approve. Seeing their rash involvement in the war and their gradual adoption of Mandalorian tactics, the Council watched Revan and Malak's heroics uneasily, remembering the fall of Exar Kun.",
@@ -1353,10 +1362,271 @@ export const holonet = [
     {
         "name": "The Covenant Murders",
         "tags": ["history"],
-        "year": "320 BTC",
+        "year": "319 BTC",
         "era": "The Dark Age",
         "location": "Seat of the Empire",
         "description": "For years, the Jedi Covenant had existed secretly within the Jedi Order, dedicated to finding and destroying the next Sith threat before it began. Then, during a mission with their Padawans, the Covenant seers had a terrifying vision: a Sith Lord in red destroying the galaxy. The Covenant realized their Padawans were wearing red environmental suits, exactly like the Sith Lord in their vision. The Jedi Covenant made a solemn decision. To ensure the galaxy's safety, their Padawans had to be killed before the prophecy was fulfilled. The terrible deed was done on Taris during the Padawans' knighting ceremony. Only the Padawan Zayne Carrick, who was late to the ceremony, survived. Framed for the murder of his fellow Padawans, Carrick went on the run, pursued by the Covenant who feared he would become the next Sith Lord.",
+        "image": ""
+    },
+    {
+        "name": "The Muur Talisman",
+        "tags": ["history"],
+        "year": "317 BTC",
+        "era": "The Dark Age",
+        "location": "Seat of the Empire",
+        "description": "As the Mandalorian Wars raged, Zayne Carrick escaped the Jedi Covenant, falsely accused of murdering his fellow Padawans. While hiding on Taris, Carrick encountered Celeste Morne, one of the Covenant's shadow operatives. Morne was searching for the Muur Talisman, a Sith artifact that could turn humans into monstrous rakghouls. Morne attempted to arrest Carrick but was interrupted by a Mandalorian raid. Realizing the Mandalorians had found the Muur Talisman, Morne and Carrick stowed away on the Mandalorians' ship to Jebble. The dark talisman possessed Morne, and she began using it to turn the Mandalorians into rakghouls. Horrified, Carrick finally persuaded Morne to see reason. She agreed to be sealed away in an oubliette to protect the galaxy from the talisman's corruptive power. The oubliette was lost when the Mandalorians razed Jebble; however, Carrick spoke of the Muur Talisman--and rakghouls--to another Jedi, Alek... later known as Darth Malak.",
+        "image": ""
+    },
+    {
+        "name": "The Fall of the Covenant",
+        "tags": ["history"],
+        "year": "316 BTC",
+        "era": "The Dark Age",
+        "location": "The Core Worlds",
+        "description": "The Jedi Covenant's attempts to prevent another Sith war had led its members to horrific acts, culminating in the murder of their Padawans. It was too much for the seer Xamar, who left the Covenant to aid Zayne Carrick, the Padawan framed for the crime. Together they went to confront Krynda Draay, the founder of the Jedi Covenant, and her son Lucien, Carrick's former Master. At the Draay mansion, Carrick discovered the real culprit: Krynda's aide Haazen, a fallen Jedi who had been manipulating the Covenant. As Lucien and Carrick dueled, Haazen used an override in the Republic Navy's weapon systems, intending to destroy the Jedi Temple and the Council. At the last minute, Lucien overcame his anger, helped Carrick escape, then used Haazen's override to bombard Haazen's position instead. Haazen was killed; Lucien survived, suffering serious injuries. Zayne Carrick's name was cleared, and the Jedi Covenant was finished.",
+        "image": ""
+    },
+    {
+        "name": "The Battle of Malachor V",
+        "tags": ["history"],
+        "year": "307.0 BTC",
+        "era": "The Dark Age",
+        "location": "Outer Rim Territories",
+        "description": "Ignoring the Jedi Council's disapproval, the Jedi generals Revan and Malak had gone to war against the Mandalorians, gradually pushing the warriors back. After lengthy maneuvering, Revan chose the planet Malachor Five as his final battleground. As Republic and Mandalorian ships clashed, Revan challenged Mandalore himself to single combat and defeated him, claiming the mask that was Mandalore's symbol of leadership. Meanwhile, one of Revan's generals enacted Revan's fearful plan, activating a superweapon called the Mass Shadow Generator. The Mass Shadow Generator destroyed not only the Mandalorian fleet, but most of the Republic ships and much of the planet Malachor Five. The Republic suffered horrific losses, but Revan, hardened by years of war, saw it as a necessary price for victory. Leaderless, the remnants of the Mandalorian fleet fled into the Unknown Regions, with Revan and Malak in pursuit.",
+        "image": ""
+    },
+    {
+        "name": "The Corruption of Revan and Malak",
+        "tags": ["history"],
+        "year": "307.1 BTC",
+        "era": "The Dark Age",
+        "location": "Seat of the Empire",
+        "description": "Finally, the Mandalorians had been routed. The Jedi generals Revan and Malak had killed Mandalore and hounded the remnants of the enemy fleet far beyond the boundaries of Republic space--and in so doing, performed terrible deeds and learned dark powers. But there were darker days to come. During Revan's pursuit of the Mandalorians, he and Malak discovered the ancient Sith Empire hidden on Dromund Kaas. Realizing this Empire was the true threat to the Republic, Revan and Malak sought to face the Sith Emperor himself, intending to cut off the serpent's head. Though it is unknown what transpired when they went to face the Emperor, they returned consumed by darkness. Revan and Malak were anointed as true Sith Lords and sent to seek out the Star Forge, an ancient alien space station capable of producing powerful starships and droids. Never revealing their knowledge of the Emperor, Revan and Malak then returned to the armies that had followed them against the Mandalorians, armed their loyal servants with the Star Forge's weapons, and marched to war against the Republic.",
+        "image": ""
+    },
+    {
+        "name": "The Jedi Civil War",
+        "tags": ["history"],
+        "year": "306 BTC",
+        "era": "The Dark Age",
+        "location": "The Galaxy",
+        "description": "Revan and Malak, once great Jedi, had turned to the dark side and sought to conquer the Republic. With a nigh-infinite fleet produced by the Star Forge space station, they seemed as unstoppable as the Mandalorians. They took control of entire systems and established a new Sith academy on Korriban. This time, the Jedi Council did not hesitate to act. The Republic lured the Sith Lords into battle against a small fleet. This allowed a Jedi strike team led by Bastila Shan to board Darth Revan's flagship. Darth Malak had plans of his own. Having grudgingly taken his role as Revan's apprentice, he decided to usurp his master. With the Jedi providing a perfect distraction, Malak fired on Revan's flagship, destroying the bridge. Malak claimed the title of Dark Lord, not realizing the Jedi strike team had survived and taken Revan--injured, but alive--as their prisoner.",
+        "image": ""
+    },
+    {
+        "name": "The Hunt for the Star Forge",
+        "tags": ["history"],
+        "year": "303 BTC",
+        "era": "The Dark Age",
+        "location": "The Galaxy",
+        "description": "Throughout Jedi history, the order has always refused to execute prisoners. When the wounded Darth Revan--the fallen Jedi responsible for countless deaths and acts of war--was captured, the Jedi Council saw an opportunity to stop Revan's successor, Darth Malak. Using the Force, the Jedi reprogrammed Revan's mind with a new identity--that of an ordinary Republic citizen. Alongside Bastila Shan, a Jedi gifted in Battle Meditation, Revan began seeking out Rakata star maps, unwittingly retracing the path to the Star Forge battle station that served as Darth Malak's secret weapon. Along the way, Revan retrained as a Jedi and learned of his terrible past. Aboard the Star Forge, he saved the life of Bastila Shan and faced Darth Malak in battle. Finally, Revan struck Malak down, ending a galactic threat and the Jedi Civil War.",
+        "image": ""
+    },
+    {
+        "name": "Revan's Hunt for the Emperor",
+        "tags": ["history"],
+        "year": "302 BTC",
+        "era": "The Dark Age",
+        "location": "Seat of the Empire",
+        "description": "With Darth Malak gone and the Star Forge destroyed, peace returned to the galaxy. The Republic and the Jedi began regaining strength after the Jedi Civil War. But for the redeemed Jedi Revan, peace was fleeting. Old memories began to surface--fragmented memories of the lost Sith Empire building strength on Dromund Kaas. Revan knew that the Sith would not remain in the Unknown Regions forever, and that the Republic was not strong enough to face them. Finally, Revan made a decision. After leaving behind instructions with allies like Bastila Shan and Carth Onasi, Revan left for the Unknown Regions hoping to put an end to the Sith Empire. He was never seen again.",
+        "image": ""
+    },
+    {
+        "name": "Rise of the Triumvirate",
+        "tags": ["history"],
+        "year": "300 BTC",
+        "era": "The Dark Age",
+        "location": "The Galaxy",
+        "description": "In the chaos after the Jedi Civil War, new Sith began to rise up, inspired by the likes of Exar Kun and Darth Revan and unaware of the Sith Empire still hidden on Dromund Kaas. Three lords stood above all others: Darth Nihilus, whose hunger devoured all life around him; Darth Sion, whose shattered body was held together by hatred; and Darth Traya, once a Jedi Master but now the Lord of Betrayal. These Sith Lords ruled from ancient Sith ruins on Malachor Five. Darth Traya was the most senior of the three, but when Sion and Nihilus united against her, she fled Malachor Five and took the name Kreia. Darth Sion created an elite cadre of Sith assassins, eroding the already-weakened Jedi from the shadows, while Darth Nihilus began roaming the galaxy, seeking the life energy of Force users to satisfy his insatiable hunger. The Republic's short reprieve was over.",
+        "image": ""
+    },
+    {
+        "name": "The Conclave at Katarr",
+        "tags": ["history"],
+        "year": "299 BTC",
+        "era": "The Dark Age",
+        "location": "The Mid-Rim",
+        "description": "Dark times had come to the Republic. Reconstruction from the Jedi Civil War was still ongoing, and the Jedi Order's numbers were dwindling. Worse, many Jedi sensed a new Sith threat emerging but could not pinpoint the source. Finally, the Jedi Council called a conclave on the Miraluka colony of Katarr. The order's Masters, including the legendary Vandar Tokare, gathered to discuss the possibility that the Sith had returned. They did not know that Darth Nihilus, a being of pure hunger and dark side power, was approaching the colony. Drawn to the assembled Masters, Nihilus devoured the life energy of everything on Katarr. Thousands of Miraluka died, along with most of the Jedi Order's senior members. Walking Katarr's lifeless surface later, Darth Nihilus came across the only survivor: the traumatized Miraluka Visas Marr, whom Nihilus took as his apprentice.",
+        "image": ""
+    },
+    {
+        "name": "The Jedi Purge",
+        "tags": ["history"],
+        "year": "298.0 BTC",
+        "era": "The Dark Age",
+        "location": "The Galaxy",
+        "description": "During the Mandalorian Wars, many Jedi disobeyed the Jedi Council to follow Revan's call to arms. But only one Jedi returned to face the Council's judgment. The so-called Jedi Exile had been one of Revan's generals, and she was responsible for the destruction of Malachor Five. Having lost all ability to feel the Force, the Exile accepted the Council's sentence of banishment and left to wander the Outer Rim. When she returned years later, the Jedi had all but vanished--slain by mysterious Sith assassins or driven into hiding. Simply by returning, the Exile became a target for these Sith and was hounded to the remote Peragus system. After meeting a mysterious Force-sensitive named Kreia at Peragus, the Exile began searching for any surviving Jedi Masters to discover what they knew.",
+        "image": ""
+    },
+    {
+        "name": "The Battle of Telos IV",
+        "tags": ["history"],
+        "year": "298.1 BTC",
+        "era": "The Dark Age",
+        "location": "Outer Rim Territories",
+        "description": "The forces of the Sith Triumvirate had hunted the Jedi almost to extinction. The Jedi Exile, cut off from the Force, went in search of the remaining Jedi Masters and, perhaps, an explanation. But the Exile's mentor, Kreia, had other plans--when the Exile finally gathered the Masters, Kreia slew them all. As the Exile recovered from this encounter, Kreia deliberately enticed the terrible Darth Nihilus to the planet Telos IV. Nihilus prepared to devour all life on the planet, and Nihilus's dreadnought, the Ravager, was met by the Republic Navy and Mandalorian forces. During the battle, the Exile boarded the Ravager and faced Nihilus. Unable to devour the Exile as he had so many others, Nihilus was finally defeated. With Telos safe, the Exile pursued Kreia.",
+        "image": ""
+    },
+    {
+        "name": "The Fall of the Triumvirate",
+        "tags": ["history"],
+        "year": "298.2 BTC",
+        "era": "The Dark Age",
+        "location": "Outer Rim Territories",
+        "description": "While seeking out the last surviving Jedi Masters, the Jedi Exile had learned much. Although the Exile had been deafened to the Force, this condition was not a punishment by the Council for fighting in the Mandalorian Wars; it had been caused by the millions of deaths at the battle of Malachor V. Knowing the Exile was haunted by Malachor, Kreia--taking up the mantle of Darth Traya again--returned to the planet. The assassin Darth Sion also returned there to face the Exile, but he was defeated, persuaded to release his unnatural hold on life. Finally, the Exile dueled Darth Traya--who claimed that, despite her betrayal, there was no ill-will between them. To Traya, the Exile represented freedom from the Force, which Traya had come to despise. With Traya's death, the Exile left Malachor V for the last time, and the Sith Triumvirate was defeated.",
+        "image": ""
+    },
+    {
+        "name": "The Restoration",
+        "tags": ["history"],
+        "year": "297 BTC",
+        "era": "The Restoration",
+        "location": "The Galaxy",
+        "description": "The secret manipulations of the Sith Triumvirate following the Jedi Civil War almost destroyed the Republic. With infrastructure crumbling and the Jedi Order nearly extinct--its leadership almost entirely slain, and its younger members slowly emerging from hiding--the future seemed bleak. But the Jedi Exile and the other heroes of the Jedi Civil War would not see the Republic fall. With renewed treaties and alliances, trade gradually began to flow and the Republic military regained its strength. Meanwhile, the Exile trained new Jedi recruits, forming a council of her companions who achieved mastery and welcoming others who came out of hiding. After years of slow but steady growth, the reborn Jedi Order made a triumphant return to its long-abandoned temple on Coruscant. But the Jedi Exile could not forget Darth Traya's final warning, suggesting that evil remained in the Unknown Regions. With the Jedi Order flourishing, the Exile left the known galaxy to follow her former commander Revan into the dark.",
+        "image": ""
+    },
+    {
+        "name": "The Purge of the Dark Council",
+        "tags": ["history"],
+        "year": "296 BTC",
+        "era": "The Restoration",
+        "location": "Seat of the Emprie",
+        "description": "After the Great Hyperspace War, the Sith Emperor had successfully led his people to the sanctuary of Dromund Kaas. Having re-established the Empire there, he slowly withdrew from public life, leaving the Empire's administration to his Dark Council. At first the Dark Council was subservient to the Emperor. But as centuries passed and the Emperor remained withdrawn, the Dark Council became more independent, believing he was weakening. When the council discovered the Emperor was planning to invade the Republic, there was angry dissent. Naga Sadow's failed invasion of the Republic a millennium before had almost destroyed the Empire; some believed it would be madness to repeat his mistake. Several of the Dark Council's members decided to depose the Emperor before he led them to destruction. But the Emperor learned of their intentions and the entire Dark Council, loyalists and dissenters alike, was purged. The price of disobedience made clear, a new council was chosen and the Emperor's plans proceeded.",
+        "image": ""
+    },
+    {
+        "name": "The G0-T0 Coup",
+        "tags": ["history"],
+        "year": "292 BTC",
+        "era": "The Restoration",
+        "location": "The Galaxy",
+        "description": "During the Republic's reconstructive period after the Jedi Civil War, Aratech Systems had produced G0-T0 droids with hugely sophisticated programming designed to administer entire worlds. The G0-T0 droids were also given an additional order: find ways to restore the Republic while remaining within all legal boundaries. The conflict between these two factors caused at least one G0-T0 droid to break its programming and go rogue, choosing to strengthen the Republic by any means necessary. Other G0-T0 droids took more drastic measures. Sixteen of the droids in the Gordian Reach established dictatorships on the worlds they administered, eventually declaring the region an independent territory named '400100500260026.' Supreme Chancellor Cressa was forced to deploy the Republic military to reclaim the Gordian Reach. The campaign was a widely publicized success, though not all of the rogue droids were accounted for.",
+        "image": ""
+    },
+    {
+        "name": "The Battle of Korriban",
+        "tags": ["history"],
+        "year": "20.0 BTC",
+        "era": "The Galactic War",
+        "location": "Seat of the Empire",
+        "description": "The onslaught of the Sith Empire was an event unlike any other in the history of the Republic. The Sith materialized from nowhere and launched an offensive of colossal proportions. Horrifying reports from the Outer Rim seemed to portend the utter destruction of the Republic. The rapid onset of galaxy-wide terror and panic was part of the Sith Emperor's meticulous calculations. In a massive symbolic display of force, an Imperial armada led by Darth Vindican and his apprentice Malgus suddenly dropped out of hyperspace and began assaulting the minimally armed Republic space station above Korriban. With the help of freighter captain Nico Okarr, Corporal Jace Malcolm and Jedi Padawan Satele Shan, descendent of the legendary Jedi Revan and Bastila Shan, were able to escape the destruction. Shan's Jedi Master Kao Cen Darach stayed behind to give them enough time to escape. While Darach was able to mortally wound Vindican, he was ultimately slain by an enraged Malgus. While Malcolm and Shan were able to escape, it took them a week before they were able to warn the Republic of the resurgent Sith Empire's invasion.",
+        "image": ""
+    },
+    {
+        "name": "The Invasion of the Tingel Arm",
+        "tags": ["history"],
+        "year": "20.1 BTC",
+        "era": "The Galactic War",
+        "location": "The Mid-Rim",
+        "description": "None the wiser to the Battle of Korriban waged just the day before, the Republic was lured into a trap by false signals of a previously-untouched alien civilization. Coruscant sent a small diplomatic convoy to the Tingel Arm, but were greeted by the terrible might of the Sith armada. The Emperor wanted them to witness the full might of his forces before he attacked. The diplomats had just enough time to transmit images back before they were annihilated. Immediately thereafter, the Sith began a full assault on the Republic allies in the Aparo Sector. Then, as Republic fleets desperately rushed in to defend them., their allies turned on them. The Sith had secretly established puppet governments on Belkadan, Sernpidal, and Ruuria. The Republic fleet suddenly found itself in enemy territory, fighting desperately on all sides. Overwhelmed and desperate, the Republic fleet scattered, fleeing from the Tingel Arm to avoid complete annihilation. Elsewhere in the Outer Rim, the Sith staged more targeted strikes, destroying our shipyards in the Sluis Sector, blockading the Rimma Trade Route, and seizing control of the rich resources in the Minos Cluster. The Galactic War had begun.",
+        "image": ""
+    },
+    {
+        "name": "A Senate Divided",
+        "tags": ["history"],
+        "year": "20.2 BTC",
+        "era": "The Galactic War",
+        "location": "The Core Worlds",
+        "description": "Confused and in complete disarray, Republic forces were unable to respond. Republic leaders and members of the Jedi Council arranged an emergency meeting in the senate to prioritize the galaxy's defense, but the session quickly became mired in politics. Irate senators stormed out in protest over decisions which left their representative sectors exposed to attack. Many of the Republic's diplomatic allies refused to commit their military support to the greater cause. It was every system for itself. This was perhaps the greatest genius of the Emperor's plot: he had turned the Republic against itself. While the Republic played politics, the Emperor used this time to reconfigure his forces for the long push into the galactic core. All might have been lost in those early years had individual Jedi masters and Republic military leaders waited for the senate's orders. By taking matters into their own hands, they managed to slow the Empire's advances. The attack of the Sith Empire was the most well-orchestrated and carefully coordinated military maneuver in the galaxy's history.",
+        "image": ""
+    },
+    {
+        "name": "The First Battle of Bothawui",
+        "tags": ["history"],
+        "year": "17.0 BTC",
+        "era": "The Galactic War",
+        "location": "The Mid-Rim",
+        "description": "Believing the Republic was still recovering from its heavy losses, Imperial forces charged into Bothan space, where they were caught off guard by the full force of the Republic fleet. The Republic fleet obliterated the Imperial squadron and the Battle of Bothawui became the Republic's first major victory in the war. The news spread across the galaxy, rekindling lost hopes and re-energizing exhausted defenders. The Republic fleet moved on, but a courageous force of Jedi and Republic soldiers remained on Bothawui to await the Empire's return.",
+        "image": ""
+    },
+    {
+        "name": "The Second Battle of Bothawui",
+        "tags": ["history"],
+        "year": "17.1 BTC",
+        "era": "The Galactic War",
+        "location": "The Mid-Rim",
+        "description": "The vengeance of the Sith came swiftly. Imperial battle cruisers from around the galaxy closed in on Bothan space to recoup their losses. A high-powered planetary shield protected Bothawui from bombardment, forcing the Imperial forces to engage on the ground. Jedi Councillor Belth Allusis, seven dozen of the Order's finest knights, and four thousand of the Republic's strongest soldiers dug in to defend the shield generators... or die trying. The disparity was staggering. An Imperial army, over one hundred thousand strong, descended on Bothawui's brave defenders. The defenders were undaunted. With no expectations of survival, they were mindful of their duty. But overconfident Imperial commanders threw all their armies' might into the direct assault and their ground forces fell in droves. For every Republic soldier who died, over ten Imperials were killed. Despite the defenders' determination, their lines were whittled away until only a handful of soldiers and Jedi remained. They rallied to Jedi Master Allusis for a final stand. The Imperial Moff in command of the force offered to spare Master Allusis if he and his comrades would surrender. Little did the Moff know, the defenders had passed beyond the fear of death. Allusis and his men fought to the last man, but not before the Imperials were driven to retreat. The Second Battle of Bothawui was a draw. The heroes of Bothawui inspired bold new Republic strategies that eventually halted the Empire's ruthless advance.",
+        "image": ""
+    },
+    {
+        "name": "The Imperial-Mandalorian Alliance",
+        "tags": ["history"],
+        "year": "15 BTC",
+        "era": "The Galactic War",
+        "location": "The Galaxy",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "The Battle of Alderaan",
+        "tags": ["history"],
+        "year": "12 BTC",
+        "era": "The Galactic War",
+        "location": "The Core Worlds",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "The Blockade of the Hydian Way",
+        "tags": ["history"],
+        "year": "10 BTC",
+        "era": "The Galactic War",
+        "location": "The Core Worlds",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "The Battle of Hoth",
+        "tags": ["history"],
+        "year": "9 BTC",
+        "era": "The Galactic War",
+        "location": "Outer Rim Territories",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "The Capture of the Dread Masters",
+        "tags": ["history"],
+        "year": "7 BTC",
+        "era": "The Galactic War",
+        "location": "Outer Rim Territories",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "The Battle of Rhen Var",
+        "tags": ["history"],
+        "year": "2 BTC",
+        "era": "The Galactic War",
+        "location": "Outer Rim Territories",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "The Summit at Alderaan",
+        "tags": ["history"],
+        "year": "1.0 BTC",
+        "era": "The Galactic War",
+        "location": "The Core Worlds",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "The Sacking of Coruscant",
+        "tags": ["history"],
+        "year": "1.1 BTC",
+        "era": "The Galactic War",
+        "location": "The Core Worlds",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "The Treaty of Coruscant",
+        "tags": ["history"],
+        "year": "0 BTC",
+        "era": "The Galactic War",
+        "location": "The Galaxy",
+        "description": "",
         "image": ""
     },
 ]
